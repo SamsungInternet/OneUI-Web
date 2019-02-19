@@ -5,61 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
 </head>
 <body>
     <form>
         <formfield>
-            <label>Text:</label>
-            <input type="text" name="text">
-            <input type="number" name="number">
-            <input type="email" name="email">
-            <input type="password" name="password">
+            <label class="oui-label">
+                <span>Text:</span>
+                <input type="text" name="text">
+            </label>
+            <label class="oui-label">
+                <span>Number:</span>
+                <input type="number" name="number">
+            </label>
+            <label class="oui-label">
+                <span>Email:</span>
+                <input type="email" name="email">
+            </label>
+            <label class="oui-label">
+                <span>Password:</span>
+                <input type="password" name="password">
+            </label>
         </formfield>
         <formfield>
-            <label>
+            <label class="oui-label">
                 <span>Checkbox 1</span>
                 <input type="checkbox" name="check1" value="check1">
             </label>
-            <label>
+            <label class="oui-label">
                 <span>Checkbox 2</span>
                 <input type="checkbox" name="check1" value="check2">
             </label>
-            <label>
+            <label class="oui-label">
                 <span>Checkbox 3</span>
                 <input type="checkbox" name="check1" value="check3">
             </label>
         </formfield>
         <formfield>
-            <label>
+            <label class="oui-label">
                 <span>Radio 1</span>
                 <input type="radio" name="radio" value="radio1">
             </label>
-            <label>
+            <label class="oui-label">
                 <span>Radio 2</span>
                 <input type="radio" name="radio" value="radio2">
             </label>
-            <label>
+            <label class="oui-label">
                 <span>Radio 3</span>
                 <input type="radio" name="radio" value="radio3">
             </label>
         </formfield>
         <formfield>
-            <label>
+            <label class="oui-label">
                 <span>Range</span>
                 <input type="range" name="points" min="0" max="10">
             </label>
         </formfield>
         <formfield>
-            <label>
+            <label class="oui-label">
                 <span>Toggle Switch</span>
                 <input type="checkbox">
                 <span class="toggle"></span>
             </label>
         </formfield>
         <formfield>
-            <label>
+            <label class="oui-label">
                 <span>Search</span>
                 <input type="search" name="q">
             </label>
