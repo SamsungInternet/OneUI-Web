@@ -11,17 +11,17 @@
     margin-bottom: 1em;
     cursor: pointer;
     user-select: none;
-  }
-  
-  .oui-input-radio {
+}
+
+.oui-input-radio {
     position: absolute;
     opacity: 0;
     cursor: pointer;
     height: 0;
     width: 0;
-  }
-  
-  .oui-container-radio:before {
+}
+
+.oui-container-radio:before {
     content: "";
     position: absolute;
     top: 0;
@@ -30,9 +30,9 @@
     width: 40px;
     height: 40px;
     border-radius: 50%;
-  }
+}
 
-  .oui-input-radio-checkmark {
+.oui-input-radio-checkmark {
     position: absolute;
     top: 9px;
     left: 9px;
@@ -41,28 +41,28 @@
     height: 20px;
     border: 1px solid var(--d-grey);
     border-radius: 50%;
-  }
+}
 
-  .oui-input-radio-checkmark:after {
+.oui-input-radio-checkmark:after {
     content: "";
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 4px;
+    right: 4px;
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
-  }
+}
 
-  .oui-container-radio:hover:before {
+.oui-container-radio:hover:before {
     background-color: var(--m-grey);
-  }
-  
-  .oui-container-radio input:checked ~ .oui-input-radio-checkmark {
+}
+
+.oui-container-radio input:checked ~ .oui-input-radio-checkmark {
     border-color: var(--primary);
     background-color: transparent;
-  }
+}
 
-  .oui-container-radio input:checked ~ .oui-input-radio-checkmark:after {
+.oui-container-radio input:checked ~ .oui-input-radio-checkmark:after {
     background-color: var(--primary);
-  }
+}

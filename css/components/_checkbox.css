@@ -1,0 +1,52 @@
+.oui-container-checkbox {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 50px;
+    height: 40px;
+    margin-bottom: 1em;
+    cursor: pointer;
+    user-select: none;
+}
+
+.oui-input-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.oui-container-checkbox:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.oui-input-checkbox-checkmark {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--d-grey);
+    border-radius: 5px;
+    background: no-repeat center;
+    background-size: 12px;
+}
+
+.oui-container-checkbox:hover:before {
+    background-color: var(--m-grey);
+}
+
+.oui-container-checkbox input:checked ~ .oui-input-checkbox-checkmark {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    background-image: url(../../icons/check.svg); 
+}
