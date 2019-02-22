@@ -54,7 +54,8 @@
     border-radius: 50%;
 }
 
-.oui-container-radio:hover:before {
+.oui-container-radio:hover:before,
+.oui-container-radio:focus:before {
     background-color: var(--m-grey);
 }
 
