@@ -1,0 +1,77 @@
+.oui-container-slider {
+    width: 100%;
+}
+
+.oui-input-slider {
+    appearance: none;
+    width: 100%;
+    height: 3px;
+    background: var(--primary);
+    border:none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.oui-input-slider::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  width: 17px; 
+  height: 17px; 
+  background: var(--primary);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer; 
+  -webkit-transition: width .2s, height .2s, background-color .2s;
+}
+
+.oui-input-slider::-ms-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 17px; 
+    height: 17px; 
+    background: var(--primary);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer; 
+    -webkit-transition: width .2s, height .2s, background-color .2s;
+  }
+
+
+  .oui-input-slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 17px; 
+    height: 17px; 
+    background: var(--primary); 
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: width .2s, height .2s, background-color .2s;
+}
+
+.oui-input-slider::-moz-range-thumb::before {
+    content: "hola";
+    background-color:yellow;
+    width: 50px;
+    height: 50px; 
+}
+
+.oui-input-slider::before::-moz-range-thumb {
+    content: "hola";
+    background-color:yellow;
+    width: 50px;
+    height: 50px; 
+}
+
+.oui-input-slider:hover::-moz-range-thumb {
+    width: 25px;
+    height: 25px; 
+}
+
+.oui-input-slider::-moz-range-track {
+    background-color: var(--inactive);
+}
+
+.oui-input-slider::-moz-range-progress {
+    background-color:var(--primary);
+}
