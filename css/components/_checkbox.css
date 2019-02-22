@@ -41,7 +41,8 @@
     background-size: 12px;
 }
 
-.oui-container-checkbox:hover:before {
+.oui-container-checkbox:hover:before,
+.oui-container-checkbox::before > input:focus {
     background-color: var(--m-grey);
 }
 
