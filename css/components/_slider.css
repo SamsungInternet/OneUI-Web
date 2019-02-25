@@ -3,6 +3,7 @@
 }
 
 .oui-input-slider {
+    -webkit-appearance: none; 
     appearance: none;
     width: 100%;
     height: 3px;
@@ -33,9 +34,8 @@
     border: none;
     border-radius: 50%;
     cursor: pointer; 
-    -webkit-transition: width .2s, height .2s, background-color .2s;
+    -webkit-transition: width .5s, height .5s, background-color .5s;
   }
-
 
   .oui-input-slider::-moz-range-thumb {
     -webkit-appearance: none;
@@ -46,26 +46,14 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    transition: width .2s, height .2s, background-color .2s;
-}
-
-.oui-input-slider::-moz-range-thumb::before {
-    content: "hola";
-    background-color:yellow;
-    width: 50px;
-    height: 50px; 
-}
-
-.oui-input-slider::before::-moz-range-thumb {
-    content: "hola";
-    background-color:yellow;
-    width: 50px;
-    height: 50px; 
+    box-shadow: 0 0 1px var(--active);
+    transition: width .5s, height .5s, background-color .5s;
 }
 
 .oui-input-slider:hover::-moz-range-thumb {
     width: 25px;
-    height: 25px; 
+    height: 25px;
+    box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.2); 
 }
 
 .oui-input-slider::-moz-range-track {
