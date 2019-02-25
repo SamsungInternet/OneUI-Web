@@ -49,5 +49,5 @@
 .oui-container-checkbox input:checked ~ .oui-input-checkbox-checkmark {
     background-color: var(--primary);
     border-color: var(--primary);
-    background-image: url(../../icons/check.svg); 
+    background-image: url(../../icons/check_white.svg); 
 }
