@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+@media (min-width: var(--s-tablet)) {
+  font-size: 15px;
+}
+
+h1 {
+  margin: 1em 0;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.6em;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover, a:active {
+  var(--active)
+}
