@@ -14,21 +14,34 @@
         <formfield>
             <label class="oui-label">
                 <span>Text:</span>
-                <input type="text" name="text">
+                <input type="text" name="text" placeholder="text"  class="oui-input-textual">
             </label>
             <label class="oui-label">
                 <span>Number:</span>
-                <input type="number" name="number">
+                <input type="number" name="number" placeholder="123" class="oui-input-textual">
             </label>
             <label class="oui-label">
                 <span>Email:</span>
-                <input type="email" name="email">
+                <input type="email" name="email" placeholder="email@example.com" class="oui-input-textual">
             </label>
             <label class="oui-label">
                 <span>Password:</span>
-                <input type="password" name="password">
+                <input type="password" name="password" placeholder="password" class="oui-input-textual">
             </label>
         </formfield>
+
+        <formfield>
+            <label class="oui-label oui-container-select">
+                <span class="oui-input-text">Checkbox 2</span>
+                <select class="oui-input-select">
+                    <option value="one">one</option>
+                    <option value="two">two</option>
+                    <option value="three">three</option>
+                    <option value="four">four</option>
+                </select>
+            </label>
+        </formfield>
+
         <formfield>
             <label class="oui-label oui-container-checkbox">
                 <span class="oui-input-text">Checkbox 1</span>
@@ -46,6 +59,7 @@
                 <span class="oui-input-checkbox-checkmark"></span>
             </label>
         </formfield>
+
         <formfield>
             <label class="oui-label oui-container-radio">
                 <input type="radio" class="oui-input-radio" name="radio" value="radio1">
@@ -79,7 +93,7 @@
         <formfield>
             <label class="oui-label">
                 <span>Search</span>
-                <input type="search" name="q">
+                <input type="search" class="oui-input-search">
             </label>
         </formfield>
         <formfield>

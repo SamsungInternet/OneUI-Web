@@ -2,7 +2,11 @@
 @import 'components/_checkbox.css';
 @import 'components/_slider.css';
 @import 'components/_toggle.css';
+@import 'components/_textual.css';
+@import 'components/_select.css';
+@import 'components/_search.css';
 
-
-
+.oui-label {
+    margin-bottom: 1em;
+}
 
