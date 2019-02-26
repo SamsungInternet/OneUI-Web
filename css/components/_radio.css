@@ -21,17 +21,6 @@
     width: 0;
 }
 
-.oui-container-radio:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
 .oui-input-radio-checkmark {
     position: absolute;
     top: 9px;
@@ -41,6 +30,7 @@
     height: 20px;
     border: 1px solid var(--d-grey);
     border-radius: 50%;
+    transition: .5s;
 }
 
 .oui-input-radio-checkmark:after {
@@ -54,9 +44,9 @@
     border-radius: 50%;
 }
 
-.oui-container-radio:hover:before,
-.oui-container-radio:focus:before {
-    background-color: var(--m-grey);
+.oui-container-radio:hover .oui-input-radio-checkmark,
+.oui-container-radio:focus .oui-input-radio-checkmark {
+    box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.2);
 }
 
 .oui-container-radio input:checked ~ .oui-input-radio-checkmark {

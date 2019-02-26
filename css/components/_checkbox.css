@@ -17,17 +17,6 @@
     width: 0;
 }
 
-.oui-container-checkbox:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-
 .oui-input-checkbox-checkmark {
     position: absolute;
     top: 9px;
@@ -39,11 +28,12 @@
     border-radius: 5px;
     background: no-repeat center;
     background-size: 12px;
+    transition: .5s;
 }
 
-.oui-container-checkbox:hover:before,
-.oui-container-checkbox::before > input:focus {
-    background-color: var(--m-grey);
+.oui-container-checkbox:hover .oui-input-checkbox-checkmark,
+.oui-container-checkbox:focus .oui-input-checkbox-checkmark {
+    box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.2);
 }
 
 .oui-container-checkbox input:checked ~ .oui-input-checkbox-checkmark {
