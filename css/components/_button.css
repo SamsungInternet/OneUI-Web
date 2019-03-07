@@ -1,0 +1,39 @@
+.oui-button {
+  height: 48px;
+  padding: 0 24px;
+  line-height: 48px;
+  border: 0;
+  border-radius: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: var(--primary);
+  background-color: var(--m-grey);
+}
+
+.oui-icon-button {
+  padding: 0;
+  border: 0;
+  line-height: inherit;
+  border-radius: 50%;
+  color: var(--primary);
+  background-color: var(--m-grey);
+}
+
+.oui-button:hover, 
+.oui-button:focus,
+.oui-icon-button:hover,
+.oui-icon-button:focus {
+  color: var(--active);
+}
+
+.oui-button--active, 
+.oui-icon-button-active {
+  color: white;
+  background-color: var(--primary);
+}
+
+.oui-button--active:hover,
+.oui-button--active:hover {
+  color: var(--l-grey);
+  background-color: var(--active)
+}
