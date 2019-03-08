@@ -1,0 +1,22 @@
+.oui-nav {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var
+}
+
+.oui-nav-link {
+    margin: 20px 20px 30px 20px;
+    padding-bottom: 4px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: var(--d-grey);
+}
+
+.oui-nav-link--active {
+    border-bottom: 2px dotted var(--primary);
+    color: var(--primary);
+
+}
