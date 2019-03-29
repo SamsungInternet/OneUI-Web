@@ -54,6 +54,12 @@
     background-color: transparent;
 }
 
+.oui-container-radio input:focus ~ .oui-input-radio-checkmark {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: var(--primary);
+}
+
 .oui-container-radio input:checked ~ .oui-input-radio-checkmark:after {
     background-color: var(--primary);
 }
