@@ -28,6 +28,7 @@
     border-radius: 5px;
     background: no-repeat center;
     background-size: 12px;
+    transition-property: box-shadow, background-color, border-color; 
     transition: .5s;
 }
 
@@ -43,6 +44,7 @@
 }
 
 .oui-container-checkbox input:focus ~ .oui-input-checkbox-checkmark {
-    outline: 2px solid;
-    outline: 2px solid var(--primary);
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: var(--primary);
 }
