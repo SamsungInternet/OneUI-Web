@@ -43,6 +43,6 @@
 }
 
 .oui-container-checkbox input:focus ~ .oui-input-checkbox-checkmark {
-    outline: 2px solid var(--primary);
+    outline: 2px solid;
     outline: 2px solid var(--primary);
 }
