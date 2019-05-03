@@ -2,12 +2,13 @@
     --primary: #0074d4;
     --active: #4297ff;
     --inactive: #A8D3F6;
-    --white: #fafafa;
+    --white: #FCFCFC;
     --black: #000000;
     --d-grey: #737373;
     --m-grey: #D6D6D6;
     --l-grey: #F2F2F2;
-    --xl-grey: #fafafa;
+    --xl-grey: #FAFAFA;
 
     --bg: var(--l-grey);
 }
+
