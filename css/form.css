@@ -8,6 +8,8 @@
 @import 'components/_button.css';
 @import 'components/_icon.css';
 @import 'components/_overlay-bubble.css';
+@import 'components/_image.css';
+@import 'components/_badge.css';
 
 html {
     background-color: var(--bg);

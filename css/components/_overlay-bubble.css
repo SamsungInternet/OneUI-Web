@@ -7,6 +7,7 @@
     border: 1px solid var(--m-grey);
     background-color: var(--white);
     box-shadow: 0px 2px 3px 0px var(--m-grey);
+    z-index: 100;
   }
   
   .oui-overlay-bubble-item {
