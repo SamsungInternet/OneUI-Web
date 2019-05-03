@@ -2,7 +2,30 @@
     height: 48px;
     padding: 0 24px;
     line-height: 48px;
-    border: 0;
+    border: 1px solid var(--white);
     border-radius: 24px;
-    background-color: var(--l-grey);
+    background-color: var(--white);
+    outline: none;
+    transition: border .3s;
+}
+
+.oui-input-textual:focus,
+.oui-input-textual:hover {
+    border: 1px solid var(--primary);
+}
+
+.oui-input-textual-embed {
+    margin: 0 .5em 0 .5em;
+    padding: 0 0px;
+    border: 0;
+    line-height: 1.8em;
+    background-color: transparent;
+    box-shadow: 0px 1px 0px 0px var(--m-grey);
+    transition: box-shadow .3s;
+}
+
+.oui-input-textual-embed:focus,
+.oui-input-textual-embed:hover {
+    outline: none;
+    box-shadow: 0px 1.5px 0px 0px var(--primary);
 }
