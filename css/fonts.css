@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'SamsungSharpSans-Regular';
-    src: url('/fonts/SamsungSharpSans-Regular.eot?#iefix') format('embedded-opentype'),  url('/fonts/SamsungSharpSans-Regular.woff') format('woff'), url('/fonts/SamsungSharpSans-Regular.ttf')  format('truetype'), url('/fonts/SamsungSharpSans-Regular.svg#SamsungSharpSans-Regular') format('svg');
+    src: url('fonts/SamsungSharpSans-Regular.eot?#iefix') format('embedded-opentype'),  url('fonts/SamsungSharpSans-Regular.woff') format('woff'), url('fonts/SamsungSharpSans-Regular.ttf')  format('truetype'), url('fonts/SamsungSharpSans-Regular.svg#SamsungSharpSans-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: auto;
@@ -9,7 +9,7 @@
   
 @font-face {
   font-family: 'SamsungSharpSans-Bold';
-  src: url('/fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),  url('/fonts/SamsungSharpSans-Bold.woff') format('woff'), url('/fonts/SamsungSharpSans-Bold.ttf')  format('truetype'), url('/fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold') format('svg');
+  src: url('fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/SamsungSharpSans-Bold.woff') format('woff'), url('fonts/SamsungSharpSans-Bold.ttf')  format('truetype'), url('fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: auto;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'SamsungOne-Regular';
-  src: url('/fonts/samsungone-300-webfont.woff') format('woff');
+  src: url('fonts/samsungone-300-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: auto;
