@@ -30,6 +30,7 @@
     height: 22px;
     border: 1px solid var(--d-grey);
     border-radius: 50%;
+    transition-property: box-shadow, background-color, border-color; 
     transition: .5s;
 }
 
@@ -52,6 +53,12 @@
 .oui-container-radio input:checked ~ .oui-input-radio-checkmark {
     border-color: var(--primary);
     background-color: transparent;
+}
+
+.oui-container-radio input:focus ~ .oui-input-radio-checkmark {
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: var(--primary);
 }
 
 .oui-container-radio input:checked ~ .oui-input-radio-checkmark:after {
