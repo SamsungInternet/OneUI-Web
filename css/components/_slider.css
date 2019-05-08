@@ -9,7 +9,6 @@
     height: 34.1px;
     background: transparent;
     border:none;
-    outline: none;
 }
 
 /* blink/webkit */
@@ -95,7 +94,6 @@
     background: transparent;
     border-color: transparent;
     border-radius: 2px;
-    outline: none;
 }
 
 .oui-input-slider::-ms-fill-upper {
@@ -103,7 +101,6 @@
     background-color: var(--inactive);
     border:none;
     border-radius: 2px;
-    outline: none;
 }
 
 .oui-input-slider::-ms-fill-lower {
@@ -111,5 +108,4 @@
     background-color: var(--primary);
     border:none;
     border-radius: 2px;
-    outline: none;   
 }

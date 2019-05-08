@@ -1,0 +1,62 @@
+@import 'fonts.css';
+
+body {
+    font-family: 'SamsungOne-Regular';
+    font-size: 1.1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sbrowser-logo {
+    width: 15em;
+    margin:2em;
+}
+
+.doc-title {
+    font-family: 'SamsungSharpSans-Bold' ;
+    font-size: 2.6em;
+    margin: .5em;
+}
+
+.doc-subtitle {
+    font-family: 'SamsungSharpSans-Bold' ;
+    font-size: 4em;
+    margin: .2em;
+}
+
+.doc-section-title {
+    font-family: 'SamsungSharpSans-Bold' ;
+    font-size: 3em;
+    margin: .2em;
+    max-width: 18em;
+    text-align: center;
+}
+
+.doc-p {
+    margin:2em;
+    max-width: 50em;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+.section-image {
+    width: 97%;
+    margin: .5em 1em 4em 1em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin:auto;
+    padding: 4em;
+}
+
+footer > a, footer > a:visited {
+    color: white;
+}
