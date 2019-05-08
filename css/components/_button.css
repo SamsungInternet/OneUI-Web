@@ -8,7 +8,6 @@
   font-weight: 500;
   color: var(--primary);
   background-color: var(--m-grey);
-  outline: 0;
   transition: border .3s;
 }
 
@@ -19,7 +18,6 @@
   border-radius: 50%;
   color: var(--primary);
   background-color: var(--m-grey);
-  outline: 0;
   transition: border .3s;
 }
 

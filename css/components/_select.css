@@ -11,5 +11,4 @@
 .oui-input-select:focus,
 .oui-input-select:hover {
     border: solid 1px var(--primary);
-    outline: none;
 }

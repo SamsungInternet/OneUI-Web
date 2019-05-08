@@ -5,7 +5,6 @@
     border: 1px solid var(--white);
     border-radius: 24px;
     background-color: var(--white);
-    outline: none;
     transition: border .3s;
 }
 
@@ -26,6 +25,5 @@
 
 .oui-input-textual-embed:focus,
 .oui-input-textual-embed:hover {
-    outline: none;
     box-shadow: 0px 1.5px 0px 0px var(--primary);
 }

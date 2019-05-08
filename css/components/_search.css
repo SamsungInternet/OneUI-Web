@@ -9,7 +9,6 @@
     background: url('../../icons/search.svg') no-repeat 12px center var(--l-grey);
     background-size: 20px;
     transition: border .3s;
-    outline:none;
 }
 
 .oui-input-search:focus,
