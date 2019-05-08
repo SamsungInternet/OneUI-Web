@@ -12,6 +12,11 @@ main {
     align-items: center;
 }
 
+.hub-link {
+    margin:auto;
+    width: 2em;
+}
+
 .sbrowser-logo {
     width: 15em;
     margin:2em;
@@ -55,8 +60,83 @@ footer {
     text-align: center;
     margin:auto;
     padding: 4em;
+    line-height: 1.6em;
 }
 
 footer > a, footer > a:visited {
     color: white;
+}
+
+@media(max-width:600px) {
+
+    .sbrowser-logo {
+        width: 8em;
+        margin:1.5em;
+    }
+
+    .doc-title {
+        font-size: 1.8em;
+        margin: .3em;
+    }
+
+    .doc-subtitle {
+        font-size: 2em;
+        margin: .2em;
+    }
+
+    .doc-section-title {
+        font-size: 2em;
+        max-width: 10em;
+    }
+
+    .doc-p {
+        margin:1em;
+        max-width: 20em;
+        line-height: 1.7em;
+        text-align: center;
+    }
+
+    footer{
+        padding: .5em;
+    }
+}
+
+@media(max-width:300px) {
+
+    .sbrowser-logo {
+        width: 200px;
+        margin:auto;
+        padding:2em;
+    }
+
+    .doc-title {
+        font-size: 1.3em;
+        margin: .3em;
+    }
+
+    .doc-subtitle {
+        font-size:1.1em;
+        margin: .1em;
+    }
+
+    .doc-section-title {
+        font-size: 1.2em;
+        max-width: 4em;
+    }
+
+    .doc-p {
+        margin:2em;
+        max-width: 50em;
+        line-height: 1.7em;
+        text-align: center;
+    }
+
+    .section-image {
+        width: 97%;
+        margin: .4 .1;
+    }
+
+    footer{
+        padding: .5em;
+    }
 }
