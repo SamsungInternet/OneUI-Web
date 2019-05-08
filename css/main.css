@@ -3,5 +3,10 @@
 @import 'components/_light-theme.css';
 @import 'components/_nav.css'
 
-
 /*@import 'components/_dark-theme.css';*/
+ 
+*:focus {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: var(--primary);
+}

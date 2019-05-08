@@ -28,6 +28,7 @@
     border-radius: 5px;
     background: no-repeat center;
     background-size: 12px;
+    transition-property: box-shadow, background-color, border-color; 
     transition: .5s;
 }
 
@@ -41,4 +42,3 @@
     border-color: var(--primary);
     background-image: url(../../icons/check_white.svg); 
 }
-
