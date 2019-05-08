@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'SamsungSharpSans-Regular';
-    src: url('http://samsunginter.net/OneUI-CSS/fonts/SamsungSharpSans-Regular.eot?#iefix') format('embedded-opentype'),  url('http://samsunginter.net/OneUI-CSS/fonts/SamsungSharpSans-Regular.woff') format('woff'), url('http://samsunginter.net/OneUI-CSS/fonts/SamsungSharpSans-Regular.ttf')  format('truetype'), url('http://samsunginter.net/OneUI-CSS/fonts/SamsungSharpSans-Regular.svg#SamsungSharpSans-Regular') format('svg');
+    src: url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/SamsungSharpSans-Regular.eot?#iefix') format('embedded-opentype'),  url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/SamsungSharpSans-Regular.woff') format('woff'), url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/SamsungSharpSans-Regular.ttf')  format('truetype'), url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/SamsungSharpSans-Regular.svg#SamsungSharpSans-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: auto;
@@ -9,7 +9,7 @@
   
 @font-face {
   font-family: 'SamsungSharpSans-Bold';
-  src: url('http://samsunginter.net/OneUI-CSS/fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),  url('http://samsunginter.net/OneUI-CSS/fonts/SamsungSharpSans-Bold.woff') format('woff'), url('http://samsunginter.net/OneUI-CSS/fonts/SamsungSharpSans-Bold.ttf')  format('truetype'), url('http://samsunginter.net/OneUI-CSS/fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold') format('svg');
+  src: url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),  url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/SamsungSharpSans-Bold.woff') format('woff'), url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/SamsungSharpSans-Bold.ttf')  format('truetype'), url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: auto;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'SamsungOne-Regular';
-  src: url('http://samsunginter.net/OneUI-CSS/fonts/samsungone-300-webfont.woff') format('woff');
+  src: url('https://samsunginter.net/OneUI-CSS/fonts/.net/OneUI-CSS/fonts/samsungone-300-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: auto;
