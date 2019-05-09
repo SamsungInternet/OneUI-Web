@@ -1,0 +1,49 @@
+@import 'fonts.css';
+
+body {
+    font-family: 'SamsungOne-Regular';
+    font-size: 1.1em;
+}
+
+h1 {
+    font-family: 'SamsungSharpSans-Bold' ;
+}
+
+.featured {
+    height: 10em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 4em;
+    background: url('../images/demo/feature_cr.jpg');
+    background-size: 100%;
+}
+
+.featured-side {
+    height: 95%;
+    background: yellowgreen;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    background: cornflowerblue;
+}
+
+.underfeature {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: -1;
+}
+
+footer {
+    background: violet;
+}
+
+.featured-side {
+    margin:1em;
+    padding: 1em;
+}
