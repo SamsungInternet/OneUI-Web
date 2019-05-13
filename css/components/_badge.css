@@ -1,7 +1,7 @@
 .oui-badge-orange {
     width: max-content;
     color: #FFFFFF;
-    background-color: var(--orange);
+    background-color: var(--badge);
     margin: 1em;
     padding: .5em;
     display: flex;

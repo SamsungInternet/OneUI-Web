@@ -1,5 +1,12 @@
 .oui-image-cover {
-    margin-bottom: 1em;
     border-radius: 24px;
     border: 1px solid var(--m-grey);
+    object-fit: cover;
 }
+
+.oui-image-title {
+    margin: auto;
+    font-size: .8em;
+    color: var(--title);
+    line-height: .8em;
+  }

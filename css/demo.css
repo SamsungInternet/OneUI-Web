@@ -1,0 +1,79 @@
+@import 'components/_nav.css';
+@import 'components/_bubble.css';
+@import 'components/_button.css';
+@import 'components/_image.css';
+@import 'components/_font.css';
+@import 'components/_oneui-light-theme.css';
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-image {
+    margin: .1em .5em .1em .3em;
+}
+
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    background: url('../images/demo/frog.jpg');
+    background-size: 100%;
+}
+
+.featured-side {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.col-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.similar-destinations {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+    
+}
+
+.underfeature {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: -1;
+}
+
+footer {
+    background: violet;
+}
+
+.featured-side {
+    margin:1em;
+    padding: 1em;
+}
+
+.dest-cover {
+    height: 10em;
+    margin: 1em;
+}
+
+.hero-title {
+    color: #FFF;
+    margin: 1em;
+    font-size: 2em;
+}
+
+.light-link {
+    color:white;
+}
+
+.light-link--active {
+    color:white;
+    border-bottom: 2px dotted white;
+}
