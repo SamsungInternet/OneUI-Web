@@ -1,8 +1,13 @@
 @import 'components/_nav.css';
 @import 'components/_bubble.css';
+@import 'components/_badge.css';
 @import 'components/_button.css';
 @import 'components/_image.css';
 @import 'components/_font.css';
+@import 'components/_toggle.css';
+@import 'components/_imgarticle.css';
+@import 'components/_spacing.css';
+@import 'components/_search.css';
 @import 'components/_oneui-light-theme.css';
 
 .logo-section {
@@ -18,7 +23,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    background: url('../images/demo/frog.jpg');
+    background: url('../images/demo/feature.jpg');
+    background-position: center center;
     background-size: 100%;
 }
 
@@ -56,11 +62,16 @@ footer {
 .featured-side {
     margin:1em;
     padding: 1em;
+    display: grid;
+    
 }
 
 .dest-cover {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 1;
+    grid-row-end: 2;
     height: 10em;
-    margin: 1em;
 }
 
 .hero-title {
@@ -76,4 +87,27 @@ footer {
 .light-link--active {
     color:white;
     border-bottom: 2px dotted white;
+}
+
+.subarticle {
+    margin: var(--margin-m);
+}
+
+.max-width {
+    max-width: 80em;
+    margin: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.sim-destination {
+    display: grid;
+    grid-template-rows: 10em auto;
+}
+
+.top-left-badge {
+    grid-column: 1 /2; 
+    grid-row: -3 / -2;
 }

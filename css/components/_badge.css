@@ -9,6 +9,7 @@
     font-size: 1em;
     min-width: 2em;
     min-height: 2em;
+    max-height: 5px;
     justify-content: center;
     align-items: center;
     border-radius: 1em;
