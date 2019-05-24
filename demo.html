@@ -4,29 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="diekus">
+    <meta name="description" content="Demo page for One UI CSS controls from Samsung Internet.">   
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
     <link href="css/demo.css" rel="stylesheet" >
-    <title>Document</title>
+    <link rel="shortcut icon" href="images/demo/logo.png">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <title>Purple Travel: One UI CSS demo page </title>
 </head>
     <body>
-        <div class="logo-section max-width"><img src="images/demo/ptlogo.svg" class="logo-image"><h1>Purple Travel</h1></div>
-        <section class="featured max-width">
-            <h2 class="hero-title">Visit Costa Rica</h2>
-            <article class="featured-side oui-bubble">
-                <h3>Tropical Adventure</h3>
-                Arrive:
-                <input type="datetime-local" name="daytime">
-                Depart:
-                <input type="datetime-local" name="daytime">
-                <formfield>
+        <div class="logo-section max-width">
+            <span class="logo-section">
+                <img src="images/demo/ptlogo.svg" class="logo-image"><h1>Purple Travel</h1>
+            </span>
+            <div id="menuIcon" class="menuIcon">
+                <img src="icons/vertical_ellipsis.svg">
+                <div id="menu" class="oui-overlay-bubble menu">
+                    <p>hola</p>
+                </div>
+            </div>
+        </div>      
+        
+        <section class="featured max-width oui-image-cover">
+            <h2 class="hero-title">Beach escape</h2>
+            <form class="featured-side oui-bubble">
+                <h3 class="featured-side-title">Tropical Adventure</h3>
+                
+                <fieldset id="datepick-arrive" class="fieldset-date">
+                        <label class="label-datepicker">Arrive:</label>
+                        <input type="date" name="daytime"  class="datepick-input" value="2019-05-25" min="2018-01-01" max="2020-12-31">
+                </fieldset>
+                <fieldset id="datepick-depart" class="fieldset-date">
+                        <label class="label-datepicker">Depart:</label>
+                        <input type="date" name="daytime" class="datepick-input" value="2019-06-01" min="2018-01-01" max="2020-12-31">
+                </fieldset>
+                
+                <fieldset id="toggle-oneway">
                         <label class="oui-label oui-container-toggle">
                             <input type="checkbox" class="toggle">
                             <span class="toggle-slider"></span>
                             <span>One way</span>
                         </label>
-                    </formfield>
-                <input type="button" value="Plan my trip" class="oui-button">
-            </article>
+                    </fieldset>
+                <input type="button" value="Plan my trip" class="oui-button featured-side-button">
+            </form>
             <div class="col-container underfeature">
                 <a href="#" class="oui-nav-link oui-nav-link--active light-link--active">Costa Rica</a>
                 <a href="#" class="oui-nav-link light-link">Staines</a>
@@ -36,13 +57,17 @@
         <div class="col-container max-width">
             <article class="subarticle">
                 <h3>About</h3>
-                <p class="oui-paragraph">Costa Rica extends majestically from the Pacific Ocean to the Caribbean Sea, and its distance is barely 200 miles. Here, visitors enjoy lovely tropical beaches, grand adventures, the wonders of nature, and scintillating culture; all the necessary components of an ideal vacation. No wonder, thousands have made Costa Rica their top travel choice!</p>
+                <p class="oui-paragraph">Costa Rica extends majestically from the Pacific Ocean to the Caribbean Sea, and its distance is barely 200 miles. </p> 
+                <p>Here, visitors enjoy lovely tropical beaches, grand adventures, the wonders of nature, and scintillating culture; all the necessary components of an ideal vacation. No wonder, thousands have made Costa Rica their top travel choice!</p>
+                <p>Text taken for demo purposes from the Costa Rica Tourism Board site. By all means, do feel free to visit if you wish.  </p>
+                <p>Featured picture is by Ford Quarterman, in Playa Barrigona, Costa Rica.</p>
             </article>
             <article class="subarticle">
                 <h3>Itineraries</h3>
-                <formfield>
+                <p>Browse through our extensive catalog of itineraries and choose the one that fits your dream vacation.</p>
+                <fieldset>
                     <input type="search" class="oui-input-search full-width">
-                </formfield>
+                </fieldset>
                 <ul class="">
                     <li class="oui-bubble-item">
                         <article class="oui-imgarticle">
@@ -57,7 +82,7 @@
                         <article class="oui-imgarticle">
                             <img class="oui-imgarticle-img" src="images/demo/turtle-icon.svg">
                             <div class="oui-imgarticle-info">
-                                <h1 class="oui-imgarticle-title">Turtle Watch</h1>
+                                <h1 class="oui-imgarticle-title">Turtle Nesting</h1>
                                 <p class=""></p>
                             </div>
                         </article>
@@ -71,27 +96,57 @@
                             </div>
                         </article>
                     </li>
+                    <li class="oui-bubble-item">
+                        <article class="oui-imgarticle">
+                            <img class="oui-imgarticle-img" src="images/demo/toucan-icon.svg">
+                            <div class="oui-imgarticle-info">
+                                <h1 class="oui-imgarticle-title">Toucan Watching</h1>
+                                <p class=""></p>
+                            </div>
+                        </article>
+                    </li>
                 </ul>
             </article>
             <article class="similar-destinations subarticle">
-                <h3>Similar destinations</h3>
+                <h3 class="align-to-start">Popular destinations</h3>
                 <div class="sim-destination">
                     <img src="images/demo/similar1.jpg" class="oui-image-cover dest-cover">
                     <div class="oui-badge-orange top-left-badge">NEW</div>
-                    <span class="oui-image-title">Thailand</span>
+                    <span class="oui-image-title dest-title">Phuket</span>
                 </div>
                 <div class="sim-destination">
-                    <img src="images/demo/panama.jpg" class="oui-image-cover dest-cover">
-                    <span class="oui-image-title">Thailand</span>
+                    <img src="images/demo/florence.jpg" class="oui-image-cover dest-cover">
+                    <span class="oui-image-title dest-title">Florence</span>
                 </div>
                 <div class="sim-destination">
-                    <img src="images/demo/brasil.jpg" class="oui-image-cover dest-cover">
-                    <span class="oui-image-title">Brazil</span>
+                    <img src="images/demo/sydney.jpg" class="oui-image-cover dest-cover">
+                    <span class="oui-image-title dest-title">Sydney</span>
                 </div>
             </article>
         </div>
-        <footer class="max-width">
-            footer stuff
+        <footer>
+            <p>This is a demo page that uses <a href="https://github.com/SamsungInternet/OneUI-CSS">One UI CSS</a> controls</a>. Brought to you by the <a href="https://samsunginter.net">Samsung Web Platform</a> team.</p>
         </footer>
+        <script>
+            let oneWay = document.getElementById('toggle-oneway');
+            oneWay.addEventListener('change', function() {
+                let returnDate = document.getElementById('datepick-depart');
+                switch(returnDate.style.visibility) {
+                    case '':
+                        returnDate.style.visibility = 'collapse';
+                        break;
+                    case 'collapse':
+                        returnDate.style.visibility = '';
+                        break;
+                }
+            });
+
+            let mnuEllipsis = document.getElementById('menuIcon');
+            mnuEllipsis.addEventListener('click', toggleMenu());
+        
+            let toggleMenu = function() {
+
+            };
+        </script>
     </body>
 </html>
