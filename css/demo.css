@@ -1,0 +1,235 @@
+@import 'components/_nav.css';
+@import 'components/_bubble.css';
+@import 'components/_overlay-bubble.css';
+@import 'components/_badge.css';
+@import 'components/_button.css';
+@import 'components/_image.css';
+@import 'components/_font.css';
+@import 'components/_toggle.css';
+@import 'components/_imgarticle.css';
+@import 'components/_spacing.css';
+@import 'components/_search.css';
+@import 'components/_oneui-light-theme.css';
+
+
+h3 {
+    margin: 1em auto;
+    text-align: center;
+}
+
+p {
+    margin: 1em auto;
+
+ }
+
+.logo-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-image {
+    margin: .1em .5em .1em .3em;
+}
+
+.menuIcon {
+    margin: 1.5em;
+    align-self: center;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menuIcon .menu {
+    visibility: hidden;
+    width: 10em;
+    position: absolute;
+    z-index: 1;
+    bottom: -15em;
+    left: -9em;
+}
+
+.menuIcon .show {
+    visibility: visible;
+    /* animation: fadeIn 1s; */
+}
+
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    background: 
+    linear-gradient(#00000000 25%, #000000BB),
+    url('../images/demo/feature.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.featured-side {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+.featured-side-title {
+    grid-column: 1 / -1;
+    margin: 1em auto;
+}
+
+.featured-side-button {
+    grid-row: -1 / -2;
+    grid-column: 1 / 3;
+    margin-bottom: 1.2em;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.similar-destinations {
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-around;
+}
+
+.sim-destination {
+    padding: .5em;
+    display: grid;
+    grid-template-rows:auto auto; 
+}
+
+.dest-cover {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    height: 10em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dest-title {
+    text-align: center;
+    grid-row: 2 / 3;
+    margin:.7em;
+}
+
+.underfeature {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: -1;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 3em;
+}
+
+.featured-side {
+    margin:1em;
+    padding: 1em;
+    display: grid; 
+}
+
+.featured-title {
+    color: #FFF;
+    margin: 1em;
+    font-size: 2em;
+    text-shadow: 0px 0px 5px black;
+}
+
+.light-link {
+    color:white;
+}
+
+.light-link--active {
+    color:white;
+    border-bottom: 2px dotted white;
+}
+
+.subarticle {
+    margin: var(--margin-m);
+}
+
+.max-width {
+    max-width: 80em;
+    margin: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.top-left-badge {
+    grid-column: 1 /2; 
+    grid-row: -3 / -2;
+    justify-self: end;
+}
+
+.align-to-start {
+    align-self: flex-start;
+}
+
+#datepick-arrive {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+}
+
+#datepick-depart {
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+}
+
+.datepick-input {
+    width: 100%;
+}
+
+.fieldset-date {
+    padding: 1em;;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.label-datepicker {
+    width: 4.5em;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 700px) {
+    .col-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        background: 
+    }
+
+    .featured-title {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+    }
+
+    .featured-side {
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        background-color: #FAFAFADA;
+    }
+
+    .underfeature {
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+    }
+}

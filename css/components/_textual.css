@@ -27,3 +27,7 @@
 .oui-input-textual-embed:hover {
     box-shadow: 0px 1.5px 0px 0px var(--primary);
 }
+
+.oui-paragraph {
+    line-height: 1.6em;
+}

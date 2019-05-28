@@ -10,14 +10,17 @@
 @import 'components/_overlay-bubble.css';
 @import 'components/_image.css';
 @import 'components/_badge.css';
+@import 'components/_oneui-light-theme.css';
 
 html {
-    background-color: var(--bg);
+    background-color: white;
+    padding: 2em;
+
 }
 
-formfield {
+fieldset {
     display: block;
-    margin-bottom: 1em;
+    margin: 1em;
 }
 
 .oui-label {

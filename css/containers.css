@@ -1,6 +1,8 @@
 @import 'components/_header.css';
 @import 'components/_bubble.css';
 @import 'components/_imgarticle.css';
+@import 'components/_nav.css';
+@import 'components/_oneui-light-theme.css';
 
 .containers {
   background-color: var(--bg);

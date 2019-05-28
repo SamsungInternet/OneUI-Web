@@ -1,0 +1,21 @@
+:root{
+    /*color palette*/
+    --white: #FCFCFC;
+    --black: #000000;
+    --d-grey: #737373;
+    --m-grey: #D6D6D6;
+    --l-grey: #F2F2F2;
+    --xl-grey: #FAFAFA;
+    --orange: #F56A0D;
+    --blue: #0074d4;
+    --l-blue: #4297ff;
+    --xl-blue: #A8D3F6;
+
+    /*theme variables*/
+    --primary: var(--blue);
+    --active: var(--l-blue);
+    --inactive: var(--xl-blue);
+    --bg: var(--l-grey);
+    --badge: var(--orange);
+    --title: var(--black);
+}

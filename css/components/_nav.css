@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: var
+    background-color: var(--d-grey);
 }
 
 .oui-nav-link {
