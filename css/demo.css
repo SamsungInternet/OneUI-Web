@@ -35,19 +35,23 @@ p {
 .menuIcon {
     margin: 1.5em;
     align-self: center;
+    position: relative;
+    display: inline-block;
     cursor: pointer;
 }
 
-.menuIcon:hover .menu{
+.menuIcon .menu {
+    visibility: hidden;
+    width: 10em;
     position: absolute;
-    top:1em;
-    right: 1em;
-    display: block;
+    z-index: 1;
+    bottom: -15em;
+    left: -9em;
 }
 
-.menu {
-    max-width: 15em;
-    display: none;
+.menuIcon .show {
+    visibility: visible;
+    /* animation: fadeIn 1s; */
 }
 
 .featured {

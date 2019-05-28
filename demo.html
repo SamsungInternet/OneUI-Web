@@ -17,14 +17,17 @@
             <span class="logo-section">
                 <img src="images/demo/ptlogo.svg" class="logo-image"><h1>Purple Travel</h1>
             </span>
-            <div id="menuIcon" class="menuIcon">
+
+            <div id="menuIcon" class="menuIcon" onclick="toggleMenu()">
                 <img src="icons/vertical_ellipsis.svg">
-                <div id="menu" class="oui-overlay-bubble menu">
-                    <p>hola</p>
-                </div>
+                <span id="menu" class="oui-overlay-bubble menu show">
+                    <p class="oui-overlay-bubble-item">More tours...</p>
+                    <p class="oui-overlay-bubble-item">Follow Us</p>
+                    <p class="oui-overlay-bubble-item">Get in touch</p>
+                </span>
             </div>
+
         </div>      
-        
         <section class="featured max-width oui-image-cover">
             <h2 class="hero-title">Beach escape</h2>
             <form class="featured-side oui-bubble">
@@ -141,12 +144,15 @@
                 }
             });
 
+            let toggleMenu = function() {
+                let popup = document.getElementById('menu');
+                popup.classList.toggle('show');
+            };
+
             let mnuEllipsis = document.getElementById('menuIcon');
             mnuEllipsis.addEventListener('click', toggleMenu());
         
-            let toggleMenu = function() {
-
-            };
+            
         </script>
     </body>
 </html>
