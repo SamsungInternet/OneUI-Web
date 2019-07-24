@@ -39,7 +39,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    border: 1px solid var(--d-grey);
+    border: 1px solid var(--on-background);
     border-radius: 50%;
   }
 
@@ -55,7 +55,7 @@
   }
 
   .oui-container-radio:hover:before {
-    background-color: var(--m-grey);
+    background-color: var(--control-background);
   }
   
   .oui-container-radio input:checked ~ .oui-input-radio-checkmark {

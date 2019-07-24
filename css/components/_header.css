@@ -3,7 +3,7 @@
 }
 
 .lozenge {
-  background-color: var(--m-grey);
+  background-color: var(--control-background);
   display: inline-block;
   width: auto;
   margin: 1em;

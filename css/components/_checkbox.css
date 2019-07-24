@@ -24,7 +24,7 @@
     display: block;
     width: 20px;
     height: 20px;
-    border: 1px solid var(--d-grey);
+    border: 1px solid var(--on-background);
     border-radius: 5px;
     background: no-repeat center;
     background-size: 12px;
