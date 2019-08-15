@@ -2,9 +2,9 @@
     height: 48px;
     padding: 0 24px;
     line-height: 48px;
-    border: 1px solid var(--white);
+    border: 1px solid var(--textual-background);
     border-radius: 24px;
-    background-color: var(--white);
+    background-color: var(--textual-background);
     transition: border .3s;
 }
 
@@ -19,7 +19,7 @@
     border: 0;
     line-height: 1.8em;
     background-color: transparent;
-    box-shadow: 0px 1px 0px 0px var(--m-grey);
+    box-shadow: 0px 1px 0px 0px var(--control-background);
     transition: box-shadow .3s;
 }
 

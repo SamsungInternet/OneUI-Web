@@ -28,7 +28,7 @@
     display: block;
     width: 22px;
     height: 22px;
-    border: 1px solid var(--d-grey);
+    border: 1px solid var(--on-background);
     border-radius: 50%;
     transition-property: box-shadow, background-color, border-color; 
     transition: .5s;

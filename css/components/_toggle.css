@@ -19,7 +19,7 @@
   height: 18px;
   border-radius: 10px;
   margin: 20px;
-  border: 1px solid var(--d-grey);
+  border: 1px solid var(--on-background);
   cursor: pointer;
 }
 
@@ -31,7 +31,7 @@
   top: -2px;
   left: -2px;
   border-radius: 50%;
-  border: 1px solid var(--d-grey);
+  border: 1px solid var(--on-background);
   background-color: white;
   transition: .5s;
 }
