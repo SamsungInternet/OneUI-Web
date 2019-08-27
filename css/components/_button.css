@@ -30,14 +30,14 @@
 }
 
 .oui-button--active, 
-.oui-icon-button-active {
+.oui-icon-button--active {
   color: var(--white);
   background-color: var(--primary);
   border: solid 1px var(--primary);
 }
 
 .oui-button--active:hover,
-.oui-button--active:hover {
+.oui-icon-button--active:hover {
   color: var(--white);
   background-color: var(--active)
 }

@@ -4,7 +4,7 @@
     object-fit: cover;
 }
 
-.oui-image-title {
+.oui-image-caption {
     margin: auto;
     font-size: .8em;
     color: var(--on-surface);
