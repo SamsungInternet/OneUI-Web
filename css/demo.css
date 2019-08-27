@@ -1,15 +1,15 @@
-@import 'components/_nav.css';
-@import 'components/_bubble.css';
-@import 'components/_overlay-bubble.css';
-@import 'components/_badge.css';
-@import 'components/_button.css';
-@import 'components/_image.css';
-@import 'components/_font.css';
-@import 'components/_toggle.css';
-@import 'components/_imgarticle.css';
-@import 'components/_spacing.css';
-@import 'components/_search.css';
-@import 'components/_oneui-light-theme.css';
+@import '../oui-css/components/_nav.css';
+@import '../oui-css/components/_bubble.css';
+@import '../oui-css/components/_overlay-bubble.css';
+@import '../oui-css/components/_badge.css';
+@import '../oui-css/../oui-css/components/_button.css';
+@import '../oui-css/components/_image.css';
+@import '../oui-css/components/_font.css';
+@import '../oui-css/components/_toggle.css';
+@import '../oui-css/components/_imgarticle.css';
+@import '../oui-css/components/_spacing.css';
+@import '../oui-css/components/_search.css';
+@import '../oui-css/components/_oneui-light-theme.css';
 
 
 h3 {
