@@ -1,3 +1,17 @@
 @import 'reset.css';
-@import 'fonts.css';
+@import 'components/_font.css';
+
+/*import the theme you want to use*/
 @import 'themes/oui-light-theme.css';
+
+/*add components you will use in your app*/
+@import 'components/_bubble.css';
+@import 'components/_textual.css';
+@import 'components/_button.css';
+@import 'components/_icon.css';
+
+html {
+    background-color: var(--background);
+    color: var(--text);
+}
+

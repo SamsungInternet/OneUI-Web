@@ -19,3 +19,11 @@
 .oui-icon-plus {
   background-image: url(../../icons/plus.svg);
 }
+
+.oui-icon-palette {
+  background-image: url(../icons/palette.svg);
+}
+
+.oui-icon-save {
+  background-image: url(../icons/plus.svg);
+}

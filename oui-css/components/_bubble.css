@@ -1,20 +1,20 @@
 .oui-bubble-title {
-  margin-left: 24px;
+  margin: 20px 10px 10px 20px;
   font-size: 1em;
-  color: var(--on-background);
+  color: var(--text-secondary);
 }
 
 .oui-bubble {
   margin-bottom: 2em;
-  padding: 0 20px;
+  padding: 20px;
   border-radius: 24px;
   border: 1px solid var(--border-surface);
-  background-color: var(--background);
+  background-color: var(--surface);
 }
 
 .oui-bubble-item {
   position: relative;
-  padding: 10px 0;
+  padding: 13px 0px;
 }
 
 .oui-bubble-item:after {
@@ -22,7 +22,8 @@
   position: absolute;
   bottom: 1px;
   right: 0;
-  width: calc(100% - 60px);
+  /* width: calc(100% - 60px); */
+  width: 100%;
   border-bottom: 1px solid var(--border-surface);
 }
 

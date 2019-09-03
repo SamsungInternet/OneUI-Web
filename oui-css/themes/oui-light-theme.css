@@ -2,17 +2,21 @@
     /*color palette*/
     --p-white: #FFFFFF;
     --white: #FCFCFC;
-    --black: #000000;
-    --d-grey: #737373;
+    --black: #252525;
+    --d-grey: #858585;
     --m-grey: #e6e6e6;
     --l-grey: #d9d9d9;
     --xl-grey: #F2F2F2;
     --orange: #F56A0D;
-    --blue: #0074d4;
+    --blue: #0A78FC;
     --l-blue: #4297ff;
     --xl-blue: #A8D3F6;
+    --red: #F01445;
+    --green: #0F9E5C;
 
     /*theme variables*/
+    --text: var(--black);
+    --text-secondary: var(--d-grey);
     --primary: var(--blue);
     --primary-variant: var();
     --secondary: var();
@@ -23,13 +27,14 @@
     --control-background: var(--m-grey);
     --textual-background: var(--white);
     --surface: var(--white);
-    --error: var();
+    --error: var(--red);
     --accent-badge: var(--orange);
     --on-primary: var(--p-white);
     --on-secondary: var();
     --on-background: var(--d-grey);
     --on-surface: var(--black);
-    --on-error: var();
+    --on-error: var(--white);
     --on-accent-badge: var(--p-white);
     --border-surface: var(--m-grey);
+    --app-variable-accent: var(--primary);
 }

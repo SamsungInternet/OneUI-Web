@@ -17,10 +17,16 @@
     margin: 0 .5em 0 .5em;
     padding: 0 0px;
     border: 0;
+    clear:both;
     line-height: 1.8em;
     background-color: transparent;
     box-shadow: 0px 1px 0px 0px var(--control-background);
     transition: box-shadow .3s;
+}
+
+.oui-input-textual-embed-title {
+    color: var(--primary);
+    font-size: .9em;
 }
 
 .oui-input-textual-embed:focus,
@@ -30,4 +36,8 @@
 
 .oui-paragraph {
     line-height: 1.6em;
+}
+
+.format-item {
+    margin:.8em 0em .2em 0em;
 }
