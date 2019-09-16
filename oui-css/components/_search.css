@@ -6,7 +6,7 @@
     line-height: 48px;
     border: 1px solid transparent;
     border-radius: 24px;
-    background: url('../../icons/search.svg') no-repeat 12px center var(--control-background);
+    background: url('../icons/search.svg') no-repeat 12px center var(--control-background);
     background-size: 20px;
     transition: border .3s;
 }
