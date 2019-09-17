@@ -19,8 +19,8 @@
     color: var(--text);
 
     /* wip */
-    mask-image: url(../icons/check_white.svg);
-    -webkit-mask-image: url(../icons/check_white.svg);
+    mask-image: url(../icons/previous.svg);
+    -webkit-mask-image: url(../icons/previous.svg);
     mask-position: center;
     -webkit-mask-position: center;
     mask-repeat: no-repeat;
