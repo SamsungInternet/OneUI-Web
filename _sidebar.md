@@ -10,12 +10,15 @@
 
   - [Bubble](components/bubble.md)
   - [Badge](components/badges.md)
-  - [Button](components/button.md)
-  - [Input](components/input.md)
+  - [Inputs](components/inputs.md)
+    - [Button](components/buttons.md)
+    - [Checkbox](components/inputs.md?id=checkbox)
+    - [Radio](components/inputs.md?id=radio)
+    - [Radio](components/inputs.md?id=range)
+    - [Switch](components/inputs.md?id=switch)
   - [Image](components/image.md)
   - [Icon](components/todo.md)
   - [Search](components/todo.md)
-  - [Search](components/search.md)
   - [Media](components/media.md)
 
 - Guide
