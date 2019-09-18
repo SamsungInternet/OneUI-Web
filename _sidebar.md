@@ -3,7 +3,7 @@
 - Getting started
 
   - [Quick start](getting-started/quickstart.md)
-  - [Theming](getting-started/themeing.md)
+  - [Theming](getting-started/theming.md)
   - [Accessibility](getting-started/accessibility.md)
 
 - Components
