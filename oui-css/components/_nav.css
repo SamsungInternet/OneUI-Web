@@ -18,5 +18,4 @@
 .oui-nav-link--active {
     border-bottom: 2px dotted var(--on-background);
     color: var(--primary);
-
 }

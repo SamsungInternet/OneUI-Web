@@ -12,7 +12,7 @@
 }
 
 /* blink/webkit */
- .oui-input-slider::-webkit-slider-thumb {
+.oui-input-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     position: relative;
@@ -40,7 +40,7 @@
 } 
 
 /* firefox */
- .oui-input-slider::-moz-range-thumb {
+.oui-input-slider::-moz-range-thumb {
     -webkit-appearance: none;
     appearance: none;
     background: var(--primary); 

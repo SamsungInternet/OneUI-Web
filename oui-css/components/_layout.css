@@ -1,4 +1,4 @@
-.oui-viewing{
+.oui-viewing {
     scroll-snap-align: start;
     background-color: var(--background);
     display: flex;

@@ -1,43 +1,43 @@
 .oui-button {
-  height: 48px;
-  padding: 0 24px;
-  line-height: 48px;
-  border: 1px solid transparent;
-  border-radius: 24px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  color: var(--primary);
-  background-color: var(--control-background);
-  transition: border .3s;
+    height: 48px;
+    padding: 0 24px;
+    line-height: 48px;
+    border: 1px solid transparent;
+    border-radius: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: var(--primary);
+    background-color: var(--control-background);
+    transition: border .3s;
 }
 
 .oui-icon-button {
-  padding: 0;
-  border: 1px solid transparent;
-  line-height: inherit;
-  border-radius: 50%;
-  color: var(--primary);
-  background-color: var(--control-background);
-  transition: border .3s;
+    padding: 0;
+    border: 1px solid transparent;
+    line-height: inherit;
+    border-radius: 50%;
+    color: var(--primary);
+    background-color: var(--control-background);
+    transition: border .3s;
 }
 
 .oui-button:hover, 
 .oui-button:focus,
 .oui-icon-button:hover,
 .oui-icon-button:focus {
-  color: var(--active);
-  border: solid 1px var(--primary);
+    color: var(--active);
+    border: solid 1px var(--primary);
 }
 
 .oui-button--active, 
 .oui-icon-button--active {
-  color: var(--white);
-  background-color: var(--primary);
-  border: solid 1px var(--primary);
+    color: var(--white);
+    background-color: var(--primary);
+    border: solid 1px var(--primary);
 }
 
 .oui-button--active:hover,
 .oui-icon-button--active:hover {
-  color: var(--white);
-  background-color: var(--active)
+    color: var(--white);
+    background-color: var(--active)
 }

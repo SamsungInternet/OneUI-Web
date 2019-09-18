@@ -1,4 +1,4 @@
-.oui-appbar{
+.oui-appbar {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -9,7 +9,7 @@
     margin-bottom: 5.4pt;
 }
 
-.oui-appbar-back-button{
+.oui-appbar-back-button {
     flex: 0 1 auto;
     width: 32px;
     height: 32px;
@@ -29,15 +29,14 @@
     -webkit-mask-size: 20px;
 }
 
-.oui-appbar-title{
+.oui-appbar-title {
     flex: 1 1 auto;
     align-self: center;
     word-wrap: break-word;
     margin-left: 5.4pt;
-
 }
 
-.oui-appbar-actions{
+.oui-appbar-actions {
     flex: 0 1 auto;
     width: 32px;
     height: 32px;
