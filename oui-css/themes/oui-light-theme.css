@@ -37,4 +37,5 @@
     --on-accent-badge: var(--p-white);
     --border-surface: var(--m-grey);
     --app-variable-accent: var(--primary);
+    --toast-background: #747474;
 }
