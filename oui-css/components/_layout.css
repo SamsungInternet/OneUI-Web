@@ -17,3 +17,15 @@
     height: 100%;
     scroll-snap-align: start;
 }
+
+@media (min-width: 800px) {
+    .container {
+        margin: auto 20vw;
+        max-width: 60vw;
+        width: 100%;
+    }
+
+    .oui-nav, .oui-toast {
+        max-width: 60vw;
+    }
+}
