@@ -18,7 +18,9 @@
     - [Switch](components/inputs.md?id=switch)
   - [Image](components/image.md)
   - [Icon](components/todo.md)
+  - [Navigation / Item](components/nav.md)
   - [Search](components/todo.md)
+  - [Toast](components/toast.md)
   - [Media](components/media.md)
 
 - Guide
