@@ -1,12 +1,17 @@
 @import 'reset.css';
+
+/* Required components */
 @import 'components/_font.css';
+@import 'components/_media.css';
+@import 'components/_spacing.css';
+@import 'components/_layout.css';
 
 /*import the theme you want to use*/
 @import 'themes/oui-light-theme.css';
 
 /*add components you will use in your app*/
 @import 'components/_appbar.css';
-@import 'components/badge.css';
+@import 'components/_badge.css';
 @import 'components/_bubble.css';
 @import 'components/_button.css';
 @import 'components/_checkbox.css';
@@ -16,14 +21,11 @@
 @import 'components/_image.css';
 @import 'components/_imgarticle.css';
 @import 'components/_input.css';
-@import 'components/_layout.css';
-@import 'components/_media.css';
 @import 'components/_nav.css';
 @import 'components/_radio.css';
 @import 'components/_search.css';
 @import 'components/_select.css';
 @import 'components/_slider.css';
-@import 'components/_spacing.css';
 @import 'components/_textual.css';
 @import 'components/_toast.css';
 @import 'components/_toggle.css';
