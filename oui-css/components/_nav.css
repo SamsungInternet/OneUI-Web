@@ -1,10 +1,10 @@
 .oui-nav {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: var(--on-background);
+    background-color: var(--tab-background);
 }
 
 .oui-nav-link {
@@ -12,7 +12,9 @@
     padding-bottom: 4px;
     font-size: 1.3em;
     text-decoration: none;
-    color: var(--d-grey);
+    color: var(--text-secondary);
+    flex-grow: 1;
+    text-align: center;
 }
 
 .oui-nav-link--active {
