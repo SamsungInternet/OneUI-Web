@@ -27,7 +27,7 @@
         width: 100%;
     }
 
-    .oui-nav, .oui-toast {
+    .oui-tab, .oui-toast {
         max-width: 60vw;
     }
 }

@@ -1,4 +1,4 @@
-.oui-nav {
+.oui-tab {
     position: fixed;
     bottom: 0;
     display: flex;
@@ -7,7 +7,7 @@
     background-color: var(--tab-background);
 }
 
-.oui-nav-link {
+.oui-tab-link {
     margin: 20px 20px 30px 20px;
     padding-bottom: 4px;
     font-size: 1.3em;
@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.oui-nav-link--active {
+.oui-tab-link--active {
     border-bottom: 2px dotted var(--on-background);
     color: var(--primary);
 }
