@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 40%;
 }
 
 .oui-viewing-title {
@@ -14,8 +15,9 @@
 }
 
 .oui-interaction {
-    height: 100%;
+    min-height: 60%;
     scroll-snap-align: start;
+    margin-bottom: 60pt;
 }
 
 @media (min-width: 800px) {
