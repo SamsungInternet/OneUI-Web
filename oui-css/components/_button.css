@@ -1,4 +1,5 @@
 .oui-button {
+    display: inline-block;
     height: 48px;
     padding: 0 24px;
     line-height: 48px;
@@ -9,6 +10,8 @@
     color: var(--primary);
     background-color: var(--control-background);
     transition: border .3s;
+    text-decoration: none;
+    text-align: center;
 }
 
 .oui-icon-button {
