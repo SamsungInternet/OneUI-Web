@@ -27,7 +27,7 @@
         width: 100%;
     }
 
-    .oui-tab, .oui-toast {
+    .oui-tab, .oui-toast, .oui-dialog {
         max-width: 60vw;
     }
 }
