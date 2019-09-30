@@ -37,12 +37,16 @@
     flex-grow: 5;
     text-align: center;
     padding: 20px;
+    text-decoration: none;
+    color: var(--primary)
 }
 
 .oui-dialog-divider {
     width: 1px;
     margin: 6px 0;
+    height: 1.5em;
     background: var(--m-grey);
+    align-self: center;
 }
 
 .oui-dialog-mask {
