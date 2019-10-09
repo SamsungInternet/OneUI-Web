@@ -31,6 +31,9 @@
 @import 'components/_toast.css';
 @import 'components/_toggle.css';
 
+@import 'misc.css';
+
+
 html {
     background-color: var(--background);
     color: var(--text);
