@@ -1,7 +1,7 @@
 
 # OneUI WEB
 
-**One UI Web** is a framework inspired by the Samsung One UI Interfaces.
+**One UI Web** is a framework inspired by the Samsung One UI Interface.
 
 The goal is simplify the creation of mobile web apps with the **One UI’s** user experience, as well as to optimise your web apps for Samsung mobile.
 
@@ -11,20 +11,20 @@ The goal is simplify the creation of mobile web apps with the **One UI’s** use
 
 ## Installation / Usage
 
-1. Download the latest release from the release tab.
+1. Get OneUI-Web
 	* ```git clone https://github.com/SamsungInternet/OneUI-Web.git``` 
 	* [Download the latest release](https://github.com/SamsungInternet/OneUI-Web/releases/latest)
-2. Add the `one-ui` folder to your assets
+2. Add the `one-ui` folder to your project files
 3. Include the CSS in your project
 
-Please also checkout the checkout the  part in the documentation: http://samsunginter.net/OneUI-Web/
+Please also check the **Getting started** part in the documentation: http://samsunginter.net/OneUI-Web/#/getting-started/quickstart
 
 
 ## Documentation
 
-We've built a beautiful doc just for you: http://samsunginter.net/OneUI-Web/
+We've built a beautiful documentation just for you: http://samsunginter.net/OneUI-Web/
 
-This documentation was built using [DocsifyJS](https://github.com/docsifyjs/docsify).
+This documentation is using [DocsifyJS](https://github.com/docsifyjs/docsify).
 You can also run it locally by following the steps bellow.
 
 * Install docsify ```npm i docsify-cli -g```
