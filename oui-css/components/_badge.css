@@ -13,4 +13,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 1em;
+    position:relative;
+}
+
+.oui-badge-placement {
+    position: absolute;
+    top: 0.1em;
+    right: 0.1em;
 }
