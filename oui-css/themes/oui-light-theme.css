@@ -14,29 +14,37 @@
     --red: #F01445;
     --green: #0F9E5C;
 
-    /*theme variables*/
+    /*main theme variables*/
     --text: var(--black);
     --text-secondary: var(--d-grey);
     --primary: var(--blue);
-    --primary-variant: var();
     --secondary: var();
-    --secondary-variant: var();
     --active: var(--l-blue);
     --inactive: var(--xl-blue);
+
+    /*backgrounds*/
     --background: var(--xl-grey);
     --control-background: var(--m-grey);
     --textual-background: var(--white);
-    --surface: var(--white);
+    --surface-background: var(--white);
+    --alt-surface-background: var(--d-grey);
+
+    /*accetns*/
     --error: var(--red);
+    --confirmation: var(--green);
     --accent-badge: var(--orange);
+
+    /*on top colors*/
     --on-primary: var(--p-white);
     --on-secondary: var();
     --on-background: var(--d-grey);
+    --on-alt-background: var(--p-white);
     --on-surface: var(--black);
     --on-error: var(--white);
+    --on-confirmation: var(--white);
     --on-accent-badge: var(--p-white);
+    
+    
+    /*borders*/
     --border-surface: var(--m-grey);
-    --app-variable-accent: var(--primary);
-    --toast-background: #747474;
-    --tab-background: #f2f2f2;
 }
