@@ -1,10 +1,4 @@
-@import 'reset.css';
-
-/* Required components */
-@import 'components/_font.css';
-@import 'components/_media.css';
-@import 'components/_spacing.css';
-@import 'components/_layout.css';
+@import 'utils/_reset.css';
 
 /*import the theme you want to use*/
 @import 'themes/oui-light-theme.css';
@@ -16,7 +10,6 @@
 @import 'components/_button.css';
 @import 'components/_checkbox.css';
 @import 'components/_dialog.css';
-@import 'components/_font.css';
 @import 'components/_header.css';
 @import 'components/_icon.css';
 @import 'components/_image.css';
@@ -31,8 +24,11 @@
 @import 'components/_toast.css';
 @import 'components/_toggle.css';
 
-@import 'misc.css';
-
+/* Required utils */
+@import 'utils/_misc.css';
+@import 'utils/_font.css';
+@import 'utils/_media.css';
+@import 'utils/_spacing.css';
 
 html {
     background-color: var(--background);
