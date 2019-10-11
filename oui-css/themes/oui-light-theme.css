@@ -47,4 +47,7 @@
     
     /*borders*/
     --border-surface: var(--m-grey);
+    --border-alt-surface: var(--m-grey);
+    --border-control: var(--d-grey);
+
 }
