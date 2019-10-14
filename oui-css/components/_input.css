@@ -1,6 +1,7 @@
 .oui-label {
 }
 
+/*
 .oui-container-radio {
     display: flex;
     align-items: center;
@@ -65,3 +66,4 @@
 .oui-container-radio input:checked ~ .oui-input-radio-checkmark:after {
     background-color: var(--primary);
 }
+*/
