@@ -37,6 +37,7 @@
     /*on top colors*/
     --on-primary: var(--p-white);
     --on-secondary: var();
+    --on-active: var(--p-white);
     --on-background: var(--d-grey);
     --on-alt-background: var(--p-white);
     --on-surface: var(--black);
