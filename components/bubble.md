@@ -13,7 +13,7 @@ Classes also include styling for titles before the bubble (like contacts in the 
     <div id="phone-camera">
         <div id="phone-lens"></div>
     </div>
-    <object id="phone-screen" data="examples/test.html" style="font-size-adjust: 0.58;" type="text/html">
+    <object id="phone-screen" data="examples/test.html" type="text/html">
         Alternative Content
     </object>
 </div>
