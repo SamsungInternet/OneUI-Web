@@ -23,6 +23,8 @@
 @import 'components/_textual.css';
 @import 'components/_toast.css';
 @import 'components/_toggle.css';
+@import 'components/_layout.css';
+
 
 /* Required utils */
 @import 'utils/_misc.css';
