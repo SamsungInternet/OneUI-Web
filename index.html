@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/samsunginternet/OneUI-Web/oui-css/oui.css">>
+    <title>Accesibility Demo</title>
+</head>
+<body>
+    <header>
+        <nav>
+                <div class="oui-nav">
+                        <a href="#" class="oui-nav-link oui-nav-link--active">Item one</a>
+                        <a href="#" class="oui-nav-link">Item two</a>
+                        <a href="#" class="oui-nav-link">Item three</a>
+                        <a href="#" class="oui-nav-link">Item four</a>
+                        <a href="#" class="oui-nav-link">Item five</a>
+                </div>
+        </nav>
+    </header>
+    <main>
+        <!--Bubble-->
+        <div class="oui-bubble"> 
+                <div class="oui-bubble-title">
+                        Contacts
+                </div>
+                <ul>
+                    <li class="oui-bubble-item">
+                            <img src="https://www.askideas.com/media/16/Pug-Dog-Running-Picture.jpg" alt="pug" height="42" width="42">
+                            <span>Laura</span>
+                    </li>
+                    <li class="oui-bubble-item">
+                            <img src="https://www.askideas.com/media/16/Pug-Dog-Running-Picture.jpg" alt="pug" height="42" width="42">
+                            <span>Laura</span>
+                    </li>
+                    <li class="oui-bubble-item">
+                            <img src="https://www.askideas.com/media/16/Pug-Dog-Running-Picture.jpg" alt="pug" height="42" width="42">
+                            <span>Laura</span>
+                    </li>
+                </ul>
+        </div>
+        <!--Badge-->
+        <div class="oui-badge">ON</div>
+        <div class="oui-badge">3</div>
+
+        <section>
+            <!--Inputs-->
+            <!--Checkbox-->
+            <label class="oui-label oui-container-checkbox">
+                    <span class="oui-input-text">Puppy</span>
+                    <input type="checkbox" class="oui-input-checkbox">
+                    <span class="oui-input-checkbox-checkmark"></span>
+            </label>
+            <label class="oui-label oui-container-checkbox">
+                    <span class="oui-input-text">Kitty</span>
+                    <input type="checkbox" class="oui-input-checkbox">
+                    <span class="oui-input-checkbox-checkmark"></span>
+            </label>
+
+            <!--Radio-->
+            <label class="oui-label oui-container-radio">
+                    <input type="radio" class="oui-input-radio" name="radio" value="radio1">
+                    <span class="oui-input-text">Pug</span>
+                    <span class="oui-input-radio-checkmark"></span>
+            </label>
+            <label class="oui-label oui-container-radio">
+                    <input type="radio" class="oui-input-radio" name="radio" value="radio1">
+                    <span class="oui-input-text">Pug</span>
+                    <span class="oui-input-radio-checkmark"></span>
+            </label>
+            <label class="oui-label oui-container-radio">
+                    <input type="radio" class="oui-input-radio" name="radio" value="radio1">
+                    <span class="oui-input-text">Pug</span>
+                    <span class="oui-input-radio-checkmark"></span>
+            </label>
+
+            <!--Range-->
+            <label class="oui-label oui-container-slider">
+                    <span>Year</span>
+                    <input type="range" class="oui-input-slider" name="points" min="0" max="10">
+            </label>
+
+            <!--Switch Toggle-->
+            <label class="oui-label oui-container-toggle">
+                    <input type="checkbox" class="toggle">
+                    <span class="toggle-slider"></span>
+                    <span>Toggle Switch</span>
+            </label>
+
+            <!--Image-->
+            <img src="https://www.askideas.com/media/16/Cute-Pug-Puppy.jpg" class="oui-image-cover" alt="cute kitten sitting on a couch">
+            <p class="oui-image-cover-caption">Pug</p>
+
+            <!--Toast-->
+            <div class="oui-toast">
+                <span class="oui-toast-text">Scroll</span>
+            </div>
+
+        </section>
+    </main>
+
+</body>
+</html>
