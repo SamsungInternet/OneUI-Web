@@ -1,5 +1,5 @@
 
-# OneUI WEB
+# One UI Web
 
 **One UI Web** is a framework inspired by the Samsung One UI Interface.
 
@@ -11,7 +11,7 @@ The goal is simplify the creation of mobile web apps with the **One UI’s** use
 
 ## Installation / Usage
 
-1. Get OneUI-Web
+1. Get One UI Web
 	* ```git clone https://github.com/SamsungInternet/OneUI-Web.git``` 
 	* [Download the latest release](https://github.com/SamsungInternet/OneUI-Web/releases/latest)
 2. Add the `one-ui` folder to your project files
