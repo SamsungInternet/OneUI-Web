@@ -42,3 +42,18 @@ Samsung’s dedicated team of professionals from various fields provides trainin
 
 In order to build a more inclusive web, developers are able to follow our accesible guide with examples.
 For more details about how to implement accesible elements check each component section.
+
+## Components
+
+### Radio Button Input
+
+Add labels, include fieldset and legend. Check span checkmark
+```html
+   <label class="oui-label oui-container-checkbox">
+                                <input type="checkbox" id="puppy" class="oui-input-checkbox">
+                                <label class="oui-input-text" for="puppy">Text file</label>
+                                <span class="oui-input-checkbox-checkmark"></span>
+    </label>
+ ```   
+
+
