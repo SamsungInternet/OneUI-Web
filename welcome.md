@@ -1,8 +1,14 @@
 # Welcome !
 
+Welcome on the One UI Web documentation. You can track the lattest change on the [changelog page](/changelog).
 
-Welcome on the OneUI Web documentation.
-This documentation is the center of 
+If you want to learn more about the Samsung One UI you can refer to the [Official One UI website](https://www.samsung.com/global/galaxy/apps/one-ui/).
+
+To get started you can head to the [QuickStart Page](/getting-started/quickstart) where you will learn the basic of One UI Web
+
+Of course all of this is Open Source, so you can [contribute](https://github.com/SamsungInternet/OneUI-Web), [submit issues](https://github.com/SamsungInternet/OneUI-Web/issues) or maybe just take a look at the [One UI Web repository on Github.](https://github.com/SamsungInternet/OneUI-Web/issues)
+
+You continue reading this page to get to know a bit more about One UI WEB.
 
 ## What is One UI Web ?
 
@@ -20,6 +26,3 @@ Easy !
 
 We crafted expecialy for you a [Quick Start Page](getting-started/quickstart).
 This guide will teach you to the step required to include One UI Web in your project. 
-
-
-The documentation is under construction :)

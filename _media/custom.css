@@ -126,3 +126,12 @@
 #phone-date{
 	font-size: 12px;
 }
+.previewCode{
+	display: flex;
+	align-content: stretch;
+}
+
+.code-item{
+	flex-grow:1;
+	margin-left:20px;
+}
