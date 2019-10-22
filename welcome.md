@@ -1,5 +1,7 @@
 # Welcome !
 
+<img src="../_media/welcome-oui.png" style="margin:auto;">
+
 Welcome on the One UI Web documentation. You can track the lattest change on the [changelog page](/changelog).
 
 If you want to learn more about the Samsung One UI you can refer to the [Official One UI website](https://www.samsung.com/global/galaxy/apps/one-ui/).
