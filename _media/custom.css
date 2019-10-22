@@ -1,3 +1,8 @@
+
+:root{
+	--theme-color: #0A78FC;
+}
+
 .app-name-link > img{
     width: 80%;
 }
