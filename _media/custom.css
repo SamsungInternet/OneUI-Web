@@ -126,12 +126,22 @@
 #phone-date{
 	font-size: 12px;
 }
+
 .previewCode{
 	display: flex;
 	align-content: stretch;
+	overflow-y: scroll;
 }
 
 .code-item{
 	flex-grow:1;
 	margin-left:20px;
+}
+
+@media screen and (max-width: 600px) {
+	.preview-item{
+		display: none;
+		align-content: stretch;
+		overflow-y: scroll;
+	}
 }
