@@ -1,0 +1,54 @@
+:root{
+    /*color palette*/
+    --p-white: #FFFFFF;
+    --white: #FAFAFA;
+    --black: #080808;
+    --d-grey: #252525;
+    --m-grey: #979797;
+    --l-grey: #CCCCCC;
+    --xl-grey: #F2F2F2;
+    --orange: #F56A0D;
+    --blue: #4197FE;
+    --d-blue: #053053;
+    --m-blue: #0074D4;
+    --red: #EF5150;
+    --green: #5EE066;
+
+    /*main theme variables*/
+    --text: var(--p-white);
+    --text-secondary: var(--m-grey);
+    --primary: var(--blue);
+    --secondary: var();
+    --active: var(--m-blue);
+    --inactive: var(--d-blue);
+
+    /*backgrounds*/
+    --background: var(--black);
+    --control-background: var(--d-grey);
+    --textual-background: var(--d-grey);
+    --surface-background: var(--d-grey);
+    --alt-surface-background: var(--d-grey);
+
+    /*accents*/
+    --error: var(--red);
+    --confirmation: var(--green);
+    --accent-badge: var(--orange);
+
+    /*on top colors*/
+    --on-primary: var(--p-white);
+    --on-secondary: var();
+    --on-active: var(--p-white);
+    --on-background: var(--l-grey);
+    --on-alt-background: var(--l-grey);
+    --on-surface: var(--p-white);
+    --on-error: var(--p-white);
+    --on-confirmation: var(--white);
+    --on-accent-badge: var(--p-white);
+    
+    
+    /*borders*/
+    --border-surface: var(--d-grey);
+    --border-alt-surface: var(--d-grey);
+    --border-control: var(--d-grey);
+
+}
