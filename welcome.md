@@ -1,6 +1,6 @@
 # Welcome !
 
-<img src="../_media/welcome-oui.png" style="margin:auto;">
+<img src="../_media/welcome-oui.png" style="margin:auto;display:block">
 
 Welcome on the One UI Web documentation. You can track the lattest change on the [changelog page](/changelog).
 
