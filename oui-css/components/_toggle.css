@@ -32,7 +32,7 @@
     left: -2px;
     border-radius: 50%;
     border: 1px solid var(--on-background);
-    background-color: white;
+    background-color: var(--background);
     transition: .5s;
 }
 
