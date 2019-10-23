@@ -1,7 +1,8 @@
 @import 'utils/_reset.css';
 
 /*import the theme you want to use*/
-@import 'themes/oui-light-theme.css';
+@import "themes/oui-light-theme.css" screen;
+@import "themes/oui-dark-theme.css" screen and (prefers-color-scheme: dark); /*Auto load dark theme*/
 
 /*add components you will use in your app*/
 @import 'components/_appbar.css';
