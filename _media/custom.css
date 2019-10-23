@@ -135,12 +135,12 @@
 .previewCode{
 	display: flex;
 	align-content: stretch;
-	overflow-y: scroll;
 }
 
 .code-item{
 	flex-grow:1;
 	margin-left:20px;
+	overflow-y: scroll;
 }
 
 @media screen and (max-width: 600px) {
