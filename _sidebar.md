@@ -16,6 +16,7 @@
     - [Radio](components/inputs.md?id=radio)
     - [Range](components/inputs.md?id=range)
     - [Switch](components/inputs.md?id=switch)
+  - [Dialog](components/dialog.md)
   - [Image](components/image.md)
   - [Icon](components/todo.md)
   - [Tab / Item (Navigation)](components/tab.md)
