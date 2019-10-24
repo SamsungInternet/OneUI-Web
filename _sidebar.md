@@ -20,7 +20,6 @@
   - [Image](components/image.md)
   - [Icon](components/todo.md)
   - [Tab / Item (Navigation)](components/tab.md)
-  - [Search](components/todo.md)
   - [Toast](components/toast.md)
   - [Media](components/media.md)
 
