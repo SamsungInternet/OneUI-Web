@@ -13,9 +13,9 @@
         "sizes": "512x512"
     }
   ],
-  "start_url": "#/",
+  "start_url": "/OneUI-Web/",
   "background_color": "#ffffff",
   "display": "standalone",
-  "scope": "#/",
+  "scope": "/OneUI-Web/",
   "theme_color": "#ffffff"
 }
