@@ -1,4 +1,4 @@
-<img src="/_media/logo-themes.png" style="margin:auto;display:block;width: 180px;" alt="One UI Web Themes logo">
+<img src="_media/logo-themes.png" style="margin:auto;display:block;width: 180px;" alt="One UI Web Themes logo">
 
 
 ## Theme Structure
@@ -50,7 +50,7 @@ All these variables are shared among all One UI Web controls, making themes cons
 
 Similar to One UI on Galaxy devices, there are two main themes included with One UI Web toggled by the activation of "Night" mode in a Galaxy device.
 
-<img src="https://raw.githubusercontent.com/SamsungInternet/OneUI-Web/gh-pages/_media/night-mode-settings.jpg" style="margin:auto;display:block">
+<img src="_media/night-mode-settings.jpg" style="margin:auto;display:block">
 
 For consistency with other similar web platform trends, we have called these two themes `light` and `dark` theme. These themes can be found in the `themes` folder. 
 
@@ -65,20 +65,20 @@ If the browser supports `prefers-color-scheme` and the OS is set to a dark theme
 
 The One UI Web light theme is based on the default theme for One UI. It is the theme that the OS uses when "Night" mode is turned off. As a reference, you can see the code for the light theme [here](https://github.com/SamsungInternet/OneUI-Web/blob/master/oui-css/themes/oui-light-theme.css "One UI Web light theme").
 
-<img src="https://raw.githubusercontent.com/SamsungInternet/OneUI-Web/gh-pages/_media/lighttheme-prev.jpg" alt="Light Theme Controls Preview" style="margin:auto;display:block">
+<img src="_media/lighttheme-prev.jpg" alt="Light Theme Controls Preview" style="margin:auto;display:block">
 
 ### Dark Theme
 
 The One UI Web dark theme is based on the One UI "Night mode" present in Galaxy Devices. As a reference, you can see the code for the dark theme [here](https://github.com/SamsungInternet/OneUI-Web/blob/master/oui-css/themes/oui-dark-theme.css "One UI Web dark theme").
 
-<img src="https://raw.githubusercontent.com/SamsungInternet/OneUI-Web/gh-pages/_media/darktheme-prev.jpg" alt="Dark Theme Controls Preview" style="margin:auto;display:block">
+<img src="_media/darktheme-prev.jpg" alt="Dark Theme Controls Preview" style="margin:auto;display:block">
 
 
 ## One UI Web Theme Creator
 
 One UI Web theme's versatility comes from the use of Custom Properties. Unlike other ways of implementing variable-like elements in CSS preprocessors, these can change dynamically. We are taking advantage of this flexibility and allowing the creation of totally custom themes for your applications. If you want an application that is consistent with the look and feel of a Galaxy device, but want to make the controls follow your brand's colors, you can use the One UI Web Theme Creator to generate a CSS that you can specify in the main `oui.css` file.
 
-<img src="https://raw.githubusercontent.com/SamsungInternet/OneUI-Web/gh-pages/_media/oui-theme-creator-ss.jpg" style="margin:auto;display:block" alt="One UI Web Theme Creator">
+<img src="_media/oui-theme-creator-ss.jpg" style="margin:auto;display:block" alt="One UI Web Theme Creator">
 
 ## Custom Themes Step by Step
 

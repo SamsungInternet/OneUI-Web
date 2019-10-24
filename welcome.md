@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/SamsungInternet/OneUI-Web/gh-pages/_media/welcome-oui.png" style="margin:auto;display:block">
+<img src="_media/welcome-oui.png" style="margin:auto;display:block">
 
 # Welcome !
 
