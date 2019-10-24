@@ -9,7 +9,7 @@ Example:
  <div class="oui-tab">
     <a href="#" class="oui-tab-link">Link 1</a>
     <a href="#" class="oui-tab-link">Link 2</a>
-    <a href="#" class="oui-tab-link oui-tab-link--active">Link 3 (active)</a>
+    <a href="#" class="oui-tab-link oui-tab-link--active" aria-current"page">Link 3 (active)</a>
     <a href="#" class="oui-tab-link">Link 4</a>
 </div>
             
