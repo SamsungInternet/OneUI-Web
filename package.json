@@ -24,6 +24,7 @@
   "devDependencies": {
     "axe-core": "^3.4.0",
     "docsify-cli": "^4.3.0",
+    "glob": "^7.1.5",
     "mocha": "^6.2.2",
     "puppeteer": "^2.0.0"
   }
