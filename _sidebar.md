@@ -18,14 +18,11 @@
     - [Switch](components/inputs.md?id=switch)
   - [Dialog](components/dialog.md)
   - [Image](components/image.md)
-  - [Icon](components/todo.md)
   - [Tab / Item (Navigation)](components/tab.md)
   - [Toast](components/toast.md)
-  - [Media](components/media.md)
 
-- Guide
-
-  - [CDN](guide/cdn.md)
-  - [PWA](guide/pwa.md)
+- Guides (Coming soon)
+  - CDN
+  - PWA
 
 - [Changelog](changelog.md)
