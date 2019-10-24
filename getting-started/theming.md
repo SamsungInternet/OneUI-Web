@@ -63,13 +63,13 @@ If the browser supports `prefers-color-scheme` and the OS is set to a dark theme
 
 ### Light Theme
 
-The One UI Web light theme is based on the default theme for One UI. It is the theme that the OS uses when "Night" mode is turned off. As a reference, you can see the light theme [here](https://github.com/SamsungInternet/OneUI-Web/blob/master/oui-css/themes/oui-light-theme.css "One UI Web light theme").
+The One UI Web light theme is based on the default theme for One UI. It is the theme that the OS uses when "Night" mode is turned off. As a reference, you can see the code for the light theme [here](https://github.com/SamsungInternet/OneUI-Web/blob/master/oui-css/themes/oui-light-theme.css "One UI Web light theme").
 
 <img src="https://raw.githubusercontent.com/SamsungInternet/OneUI-Web/gh-pages/_media/lighttheme-prev.jpg" alt="Light Theme Controls Preview" style="margin:auto;display:block">
 
 ### Dark Theme
 
-The One UI Web dark theme is based on the One UI "Night mode" present in Galaxy Devices. As a reference, you can see the dark theme [here](https://github.com/SamsungInternet/OneUI-Web/blob/master/oui-css/themes/oui-dark-theme.css "One UI Web dark theme").
+The One UI Web dark theme is based on the One UI "Night mode" present in Galaxy Devices. As a reference, you can see the code for the dark theme [here](https://github.com/SamsungInternet/OneUI-Web/blob/master/oui-css/themes/oui-dark-theme.css "One UI Web dark theme").
 
 <img src="https://raw.githubusercontent.com/SamsungInternet/OneUI-Web/gh-pages/_media/darktheme-prev.jpg" alt="Dark Theme Controls Preview" style="margin:auto;display:block">
 
