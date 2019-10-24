@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/SamsungInternet/OneUI-Web/gh-pages/_media/logo-themes.png" style="margin:auto;display:block" alt="One UI Web Themes logo">
+<img src="/_media/logo-themes.png" style="margin:auto;display:block;width: 180px;" alt="One UI Web Themes logo">
 
 
 ## Theme Structure
