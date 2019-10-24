@@ -88,4 +88,4 @@ In order to make sure that inputs are accesible, as WCAG recommends, remember to
 
 - Make your inputs adaptable: In order to create content that can be presented in different ways (for example simpler layout) without losing information or structure, add text to the input element's associated label that describes the purpose or function of the control. 
 - Help users avoid and correct mistakes: Add the attribute "for" in <label>  and "id" in <input>
-- When you are using forms, be aware to use <fieldset> and <legend> tags.
+- When you are using forms, be aware to use <fieldset> and <legend> tags to group and associate related form controls.
