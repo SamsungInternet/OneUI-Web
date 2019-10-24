@@ -3,7 +3,7 @@
 # OneUI Web
 Welcome on the documentation of the CSS Implementation of One UI 
 
-The documentation is available at this addres: http://samsunginter.net/OneUI-Web/
+The documentation is available at this addres: https://samsunginter.net/OneUI-Web/
 
 This documentation is using DocsifyJS. You can also run it locally by following the steps bellow.
 
