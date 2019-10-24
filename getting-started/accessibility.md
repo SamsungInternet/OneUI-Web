@@ -74,7 +74,7 @@ Even though we covered most case scenarios to help build accesible websites usin
 
 - Vision
 
-Creating customizable themes that are accesible and helps user with vision problems like colorblind.
+Creating customizable themes that are accesible and helps user with vision problems like color blindness.
 
 - Navigation
 
