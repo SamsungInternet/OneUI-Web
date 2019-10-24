@@ -1,0 +1,21 @@
+{
+  "short_name": "One UI Web - Doc",
+  "name": "One UI Web - Doc",
+  "icons": [
+    {
+      "src": "_media/oui-logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+        "src": "_media/oui-logo-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ffffff"
+}
