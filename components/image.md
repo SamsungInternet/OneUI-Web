@@ -18,7 +18,7 @@ Image caption are used to add a description under an image
 
 Some of the techniques that we recommend based on W3C to make images accesible are the following:
 
-- All img elements should have an alt attribute
+- All img elements should have an alt attribute which is not as empty string.
 
 - Choose appropiate text alternatives so users can understand your content. If an image is [decorative](https://www.w3.org/WAI/tutorials/images/decorative/), alt attribute should be empty (alt="")
 
