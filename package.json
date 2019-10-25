@@ -26,6 +26,7 @@
     "docsify-cli": "^4.3.0",
     "glob": "^7.1.5",
     "mocha": "^6.2.2",
-    "puppeteer": "^2.0.0"
+    "puppeteer": "^2.0.0",
+    "terminal-kit": "^1.31.4"
   }
 }

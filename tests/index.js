@@ -2,6 +2,7 @@ const puppeteer = require('puppeteer');
 const { spawn } = require('child_process');
 const util = require('util');
 const glob = util.promisify(require('glob'));
+const term = require( 'terminal-kit' ).terminal ;
 
 const docsify = spawn('docsify', ['serve']);
 docsify.stdout.on('data', (data) => {
@@ -12,6 +13,7 @@ docsify.on('close', (code) => {
 });
 
 let browser;
+let hasViolations = false;
 
 (async () => {
   const urls = (await glob('examples/**/*'));
@@ -22,7 +24,7 @@ let browser;
   browser = await puppeteer.launch();
 
   for (const url of urls) {
-    console.log(url);
+    term.green(url + '\n');
     const page = await browser.newPage();
     await page.goto('http://127.0.0.1:3000/' + url);
     await page.addScriptTag({url: '/node_modules/axe-core/axe.min.js'})
@@ -32,10 +34,37 @@ let browser;
           if (err) throw err;
           resolve(results);
         });
-      });
+      })
+      .catch(e => ({
+        error: e.message
+      }));
     });
     await page.close();
-    console.log(results);
+
+    if (results.error) {
+      throw Error(results.error);
+    }
+
+    const colorMap = {
+      "minor": "brightYellow",
+      "moderate": "yellow",
+      "serious": "red",
+      "critical": "red"
+    }
+
+    //violations, passes, incomplete, inapplicable
+
+    for (const violation of results.violations) {
+      hasViolations = true;
+      term.bold(violation.description + '\n');
+      for (const node of violation.nodes) {
+        term[colorMap[node.impact] || 'green'](
+          (node.impact === 'critical' ?'!!':'•') + ' ' + node.impact
+        );
+        term(' ' + node.html + '\n');
+      }
+      console.log('\n');
+    }
   }
 })()
 .catch(e => console.warn(e))
@@ -44,5 +73,5 @@ let browser;
   console.log('cleaning up');
   await browser.close();
   docsify.kill();
-  process.exit();
+  process.exit(hasViolations ? 1 : 0);
 });
