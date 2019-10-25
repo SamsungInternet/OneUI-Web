@@ -24,7 +24,7 @@ let hasViolations = false;
   browser = await puppeteer.launch();
 
   for (const url of urls) {
-    term.green(url + '\n');
+    term.green((url || 'Docsify Index Page') + '\n');
     const page = await browser.newPage();
     await page.goto('http://127.0.0.1:3000/' + url);
     await page.addScriptTag({url: '/node_modules/axe-core/axe.min.js'})
