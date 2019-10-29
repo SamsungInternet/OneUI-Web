@@ -4,13 +4,19 @@ const util = require('util');
 const glob = util.promisify(require('glob'));
 const term = require( 'terminal-kit' ).terminal ;
 
-const docsify = spawn('docsify', ['serve']);
-docsify.stdout.on('data', (data) => {
-  console.log(`stdout: ${data}`);
-});
-docsify.on('close', (code) => {
-  console.log(`docsify exited with code ${code}`);
-});
+let docsify;
+const docsifyPromise = new Promise(resolve => {
+  docsify = spawn('docsify', ['serve']);
+  docsify.stdout.once('data', (data) => {
+    resolve();
+  });
+  docsify.stdout.on('data', (data) => {
+    console.log(`stdout: ${data}`);
+  });
+  docsify.on('close', (code) => {
+    console.log(`docsify exited with code ${code}`);
+  });
+})
 
 let browser;
 let hasViolations = false;
@@ -19,14 +25,29 @@ let hasViolations = false;
   const urls = (await glob('examples/**/*'));
   urls.push('');
 
-  await new Promise(r => setTimeout(r,1000));
+  const colorMap = {
+    "minor": "brightYellow",
+    "moderate": "yellow",
+    "serious": "red",
+    "critical": "red"
+  }
 
   browser = await puppeteer.launch();
+  await docsifyPromise;
 
   for (const url of urls) {
     term.green((url || 'Docsify Index Page') + '\n');
     const page = await browser.newPage();
     await page.goto('http://127.0.0.1:3000/' + url);
+
+    // On the docsify page scrape all the links
+    if (url === '') {
+      const hrefs = await page.$$eval('.sidebar-nav a', aS => aS.map(a => a.href));
+      for (href of hrefs) {
+        urls.push(href.replace('http://127.0.0.1:3000',''));
+      }
+    }
+
     await page.addScriptTag({url: '/node_modules/axe-core/axe.min.js'})
     const results = await page.evaluate(() => {
       return new Promise(resolve => {
@@ -43,13 +64,6 @@ let hasViolations = false;
 
     if (results.error) {
       throw Error(results.error);
-    }
-
-    const colorMap = {
-      "minor": "brightYellow",
-      "moderate": "yellow",
-      "serious": "red",
-      "critical": "red"
     }
 
     //violations, passes, incomplete, inapplicable
