@@ -36,7 +36,6 @@ let hasViolations = false;
   await docsifyPromise;
 
   for (const url of urls) {
-    term.green((url || 'Docsify Index Page') + '\n');
     const page = await browser.newPage();
     await page.goto('http://127.0.0.1:3000/' + url);
 
@@ -67,6 +66,12 @@ let hasViolations = false;
     }
 
     //violations, passes, incomplete, inapplicable
+
+    if (results.violations.length) {
+      term.yellow((url || 'Docsify Index Page') + '\n');
+    } else {
+      term.green('✅ ' + (url || 'Docsify Index Page') + '\n');
+    }
 
     for (const violation of results.violations) {
       hasViolations = true;
