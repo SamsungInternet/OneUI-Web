@@ -86,7 +86,7 @@ let hasViolations = false;
     }
   }
 })()
-.catch(e => {
+.catch(async e => {
   console.warn(e);
   await browser.close();
   docsify.kill();
