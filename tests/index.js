@@ -3,19 +3,18 @@ const { spawn } = require('child_process');
 const util = require('util');
 const glob = util.promisify(require('glob'));
 const term = require( 'terminal-kit' ).terminal ;
+const port = process.env.PORT || 3000;
 
 let docsify;
 const docsifyPromise = new Promise(resolve => {
-  docsify = spawn('docsify', ['serve']);
-  docsify.stdout.once('data', (data) => {
-    resolve();
-  });
+  docsify = spawn('http-server', ['-p' + port, '-s']);
   docsify.stdout.on('data', (data) => {
     console.log(`stdout: ${data}`);
   });
   docsify.on('close', (code) => {
     console.log(`docsify exited with code ${code}`);
   });
+  resolve();
 })
 
 let browser;
@@ -37,13 +36,13 @@ let hasViolations = false;
 
   for (const url of urls) {
     const page = await browser.newPage();
-    await page.goto('http://127.0.0.1:3000/' + url);
+    await page.goto('http://127.0.0.1:' + port + '/' + url);
 
     // On the docsify page scrape all the links
     if (url === '') {
       const hrefs = await page.$$eval('.sidebar-nav a', aS => aS.map(a => a.href));
       for (href of hrefs) {
-        urls.push(href.replace('http://127.0.0.1:3000',''));
+        urls.push(href.replace('http://127.0.0.1:' + port,''));
       }
     }
 
