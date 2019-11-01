@@ -86,7 +86,12 @@ let hasViolations = false;
     }
   }
 })()
-.catch(e => console.warn(e))
+.catch(e => {
+  console.warn(e);
+  await browser.close();
+  docsify.kill();
+  process.exit(1);
+})
 .then(async () => {
 
   console.log('cleaning up');
