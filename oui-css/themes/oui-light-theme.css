@@ -21,6 +21,7 @@
     --secondary: var();
     --active: var(--l-blue);
     --inactive: var(--xl-blue);
+    --app-accent: var(--primary);
 
     /*backgrounds*/
     --background: var(--xl-grey);

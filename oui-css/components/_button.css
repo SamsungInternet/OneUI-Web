@@ -7,7 +7,7 @@
     border-radius: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    color: var(--primary);
+    color: var(--app-accent);
     background-color: var(--control-background);
     transition: border .3s;
     text-decoration: none;
@@ -19,7 +19,7 @@
     border: 1px solid transparent;
     line-height: inherit;
     border-radius: 50%;
-    color: var(--primary);
+    color: var(--app-accent);
     background-color: var(--control-background);
     transition: border .3s;
 }
@@ -29,14 +29,14 @@
 .oui-icon-button:hover,
 .oui-icon-button:focus {
     color: var(--active);
-    border: solid 1px var(--primary);
+    border: solid 1px var(--app-accent);
 }
 
 .oui-button--active, 
 .oui-icon-button--active {
     color: var(--on-primary);
-    background-color: var(--primary);
-    border: solid 1px var(--primary);
+    background-color: var(--app-accent);
+    border: solid 1px var(--app-accent);
 }
 
 .oui-button--active:hover,

@@ -47,7 +47,7 @@ input:focus + .toggle-slider {
 
 input:checked + .toggle-slider:after {
     transform: translateX(20px);
-    border-color: var(--primary);
+    border-color: var(--app-accent);
 }
 
 .oui-container-toggle:hover .toggle-slider:after {

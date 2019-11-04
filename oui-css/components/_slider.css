@@ -19,7 +19,7 @@
     margin-top:-7px;
     width: 17px; 
     height: 17px; 
-    background: var(--primary);
+    background: var(--app-accent);
     border: none;
     border-radius: 50%;
     cursor: pointer; 
@@ -34,7 +34,7 @@
 }
 
 .oui-input-slider::-webkit-slider-runnable-track {
-    background-color: var(--primary);
+    background-color: var(--app-accent);
     height: 4px;
     border-radius: 2px;
 } 
@@ -43,7 +43,7 @@
 .oui-input-slider::-moz-range-thumb {
     -webkit-appearance: none;
     appearance: none;
-    background: var(--primary); 
+    background: var(--app-accent); 
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -64,7 +64,7 @@
 }
 
 .oui-input-slider::-moz-range-progress {
-    background-color:var(--primary);
+    background-color:var(--app-accent);
     height: 4px;
     border-radius: 2px;
 }
@@ -73,7 +73,7 @@
  .oui-input-slider::-ms-thumb {
     width: 17px; 
     height: 17px;
-    background-color:var(--primary);
+    background-color:var(--app-accent);
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -84,7 +84,7 @@
 }
 
 .oui-input-slider:hover::-ms-thumb {
-    background-color: var(--primary);
+    background-color: var(--app-accent);
     transform: scale(1.15, 1.15) translate(0px, 3px);
 }
 
@@ -105,7 +105,7 @@
 
 .oui-input-slider::-ms-fill-lower {
     width: 100%;
-    background-color: var(--primary);
+    background-color: var(--app-accent);
     border:none;
     border-radius: 2px;
 }

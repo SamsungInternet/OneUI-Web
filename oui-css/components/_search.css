@@ -13,5 +13,5 @@
 
 .oui-input-search:focus,
 .oui-input-search:hover {
-    border: 1px solid var(--primary);
+    border: 1px solid var(--app-accent);
 }
