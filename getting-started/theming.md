@@ -83,6 +83,6 @@ One UI Web theme's versatility comes from the use of Custom Properties. Unlike o
 
 <img src="_media/oui-theme-creator-ss.jpg" style="margin:auto;display:block" alt="One UI Web Theme Creator">
 
-You can create your custom themes with the alpha Theme creator found [here](https://samsunginter.net/oui-themes "One UI Web theme builder")..
+You can create your custom themes with the alpha Theme creator found [here](https://samsunginter.net/oui-themes "One UI Web theme builder").
 
 
