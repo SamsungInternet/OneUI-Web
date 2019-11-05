@@ -35,7 +35,7 @@ p {
 }
 
 a {
-  color: var(--primary);
+  color: var(--app-accent);
 }
 
 a:hover, a:active {
