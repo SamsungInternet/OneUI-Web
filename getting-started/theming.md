@@ -73,6 +73,9 @@ The One UI Web dark theme is based on the One UI "Night mode" present in Galaxy 
 
 <img src="_media/darktheme-prev.jpg" alt="Dark Theme Controls Preview" style="margin:auto;display:block">
 
+## Application Accent Color
+
+One UI Web has a special variable that allows to customize the primary color of the UI to match specific scopes. In One UI, you can notice how some controls like buttons and radio buttons change to a purple hue in Samsung Internet, and they become gold in the Files app to match the branding of the app. The variable `--app-accent` allows you to quickly swap the `--primary` color for the desired accent. 
 
 ## One UI Web Theme Creator
 
