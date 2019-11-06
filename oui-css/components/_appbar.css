@@ -7,6 +7,33 @@
     align-items: center;
     background-color: var(--background);
     margin-bottom: 5.4pt;
+    position: relative;
+}
+
+.oui-appbar:before{
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 25px;
+    height: 25px;
+    left: 0;
+    background-color: var(--background);
+    mask-image: url(../icons/left.svg);
+    -webkit-mask-image: url(../icons/left.svg);
+}
+
+.oui-appbar::after{
+    display: inline-block;
+    content: '';
+    position: absolute;
+    top: 100%;
+    width: 25px;
+    height: 25px;
+    right: 0;
+    background-color: var(--background);
+    mask-image: url(../icons/right.svg);
+    -webkit-mask-image: url(../icons/right.svg);
 }
 
 .oui-appbar-back-button {
