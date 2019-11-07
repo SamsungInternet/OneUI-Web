@@ -1,0 +1,14 @@
+/* make it look good on very small display */
+
+.container {
+    min-width: inherit !important;
+}
+
+.oui-viewing-title {
+    width: 100% !important;
+    word-wrap: initial !important;
+}
+
+.oui-dialog {
+    min-height: 60vh !important;
+}
