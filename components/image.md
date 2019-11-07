@@ -1,18 +1,42 @@
 # Image
 
-Image elements and decoration in OneUI (rounds the corners).
+The `oui-image-cover` element will simply apply the One UI style to your images.
 
-```
-<img src="kitten.png" class="oui-image-cover" alt="cute kitten sitting on a couch">
-```
+You can also use the `oui-image-cover-caption` element that can be used to add a caption on top or under an `oui-image-cover`.
+Take a look at the example !
 
-# Image Caption
+## Example of image:
 
-Image caption are used to add a description under an image
+<div  class="previewCode">
+    <div class="preview-item">
+        <span style="margin-bottom: 20px;display:block;">Preview:</span>
+        <div id="phone-container">
+            <div id="phone-shadows"></div>
+            <div id="phone-sidebutton"></div>
+            <div id="phone-ltbutton"></div>
+            <div id="phone-lbbutton"></div>
+            <div id="phone-camera">
+                <div id="phone-lens"></div>
+            </div>
+            <object id="phone-screen" data="examples/image.html" type="text/html" style="">
+            </object>
+        </div>
+    </div>
+    <div class="code-item">
+        <span style="margin-bottom: 20px;display:block;">Code:</span>
 
-```
+```html
+<div class="oui-bubble">
+    <img src="kitten.png"
+        class="oui-image-cover"
+        alt="cute kitten sitting on a couch"/>
+    <p class="oui-image-cover-caption">Hey this is an example</p>
+</div>
 <p class="oui-image-cover-caption">Hey this is an example</p>
 ```
+
+</div>
+</div>
 
 # Accesibility
 

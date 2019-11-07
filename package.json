@@ -1,0 +1,33 @@
+{
+  "name": "oneui-web",
+  "version": "1.0.0",
+  "description": "✨ One UI Web is the Samsung One UI implementation in CSS ✨",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamsungInternet/OneUI-Web.git"
+  },
+  "keywords": [
+    "CSS",
+    "OneUI",
+    "Samsung"
+  ],
+  "author": "@diekus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SamsungInternet/OneUI-Web/issues"
+  },
+  "homepage": "https://github.com/SamsungInternet/OneUI-Web#readme",
+  "devDependencies": {
+    "axe-core": "^3.4.0",
+    "docsify-cli": "^4.3.0",
+    "glob": "^7.1.5",
+    "http-server": "^0.11.1",
+    "mocha": "^6.2.2",
+    "puppeteer": "^2.0.0",
+    "terminal-kit": "^1.31.4"
+  }
+}
