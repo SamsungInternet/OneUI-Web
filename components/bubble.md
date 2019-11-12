@@ -76,7 +76,7 @@ See some examples down bellow.
 
 ```html
 <div class="oui-bubble">
-    <img src="https://placeimg.com/640/480/any" class="oui-image-cover" alt="">
+    <img src="https://placeimg.com/640/480/any" alt="Banner ranodm image" class="oui-image-cover" alt="">
 
     <p class="oui-overlay-bubble-item">Menu Item 1</p>
     <ul>

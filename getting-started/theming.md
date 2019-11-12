@@ -50,7 +50,7 @@ All these variables are shared among all One UI Web controls, making themes cons
 
 Similar to One UI on Galaxy devices, there are two main themes included with One UI Web toggled by the activation of "Night" mode in a Galaxy device.
 
-<img src="_media/night-mode-settings.jpg" style="margin:auto;display:block">
+<img src="_media/night-mode-settings.jpg" alt="Screenshot of the night mode setting" style="margin:auto;display:block">
 
 For consistency with other similar web platform trends, we have called these two themes `light` and `dark` theme. These themes can be found in the `themes` folder. 
 
