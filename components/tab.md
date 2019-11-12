@@ -21,7 +21,7 @@ You can also use `oui-tab-link--active` to add contrast to the active tab.
             <div id="phone-camera">
                 <div id="phone-lens"></div>
             </div>
-            <object id="phone-screen" data="examples/tab.html" type="text/html" style="">
+            <object id="phone-screen" title="Phone containing an example of the current component" data="examples/tab.html" type="text/html" style="">
             </object>
         </div>
     </div>

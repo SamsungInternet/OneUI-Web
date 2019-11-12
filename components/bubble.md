@@ -30,7 +30,7 @@ See some examples down bellow.
             <div id="phone-camera">
                 <div id="phone-lens"></div>
             </div>
-            <object id="phone-screen" data="examples/bubble-list.html" type="text/html" style="">
+            <object id="phone-screen" title="Phone containing an example of the current component" data="examples/bubble-list.html" type="text/html" style="">
             </object>
         </div>
     </div>
@@ -66,7 +66,7 @@ See some examples down bellow.
             <div id="phone-camera">
                 <div id="phone-lens"></div>
             </div>
-            <object id="phone-screen" data="examples/bubble-full.html" type="text/html">
+            <object id="phone-screen" title="Phone containing an example of the current component" data="examples/bubble-full.html" type="text/html">
                 Alternative Content
             </object>
         </div>
