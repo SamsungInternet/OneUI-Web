@@ -12,6 +12,7 @@
     transition: border .3s;
     text-decoration: none;
     text-align: center;
+    -webkit-appearance: none;
 }
 
 .oui-icon-button {
