@@ -37,12 +37,12 @@
 }
 
 input:checked + .toggle-slider {
-    background-color: var(--active);
-    border-color: var(--active);
+    background-color: var(--app-accent);
+    border-color: var(--app-accent);
 }
 
 input:focus + .toggle-slider {
-    box-shadow: 0 0 1px var(--active);
+    box-shadow: 0 0 1px var(--app-accent);
 }
 
 input:checked + .toggle-slider:after {
