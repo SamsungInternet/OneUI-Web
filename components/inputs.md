@@ -114,11 +114,19 @@ Creating a button is easy, you just need to add the ```oui-button``` class to yo
 </div>
 
 ### Active button
-
-**TODO**
-Add preview
-
 Same as for the default button but we have added the ```oui-button--active``` class:
-```
+
+<div class="previewCode">
+    <div class="preview-item">
+        <span style="margin-bottom: 20px;display:block;">Preview:</span>
+        <object title="Phone containing an example of the current component" data="examples/input-button-active.html" type="text/html" style="">
+        </object>
+    </div>
+    <div class="code-item">
+        <span style="margin-bottom: 20px;display:block;">Code:</span>
+
+```html
 <input type="button" value="Active button" class="oui-button oui-button--active">
 ```
+</div>
+</div>
