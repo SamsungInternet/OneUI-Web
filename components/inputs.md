@@ -31,16 +31,24 @@ We got a lots of custom input.
 
 ## Radio
 
-**TODO**
-Add preview
+<div class="previewCode">
+    <div class="preview-item">
+        <span style="margin-bottom: 20px;display:block;">Preview:</span>
+        <object title="Phone containing an example of the current component" data="examples/input-radio.html" type="text/html" style="">
+        </object>
+    </div>
+    <div class="code-item">
+        <span style="margin-bottom: 20px;display:block;">Code:</span>
 
-```
+```html
 <label class="oui-label oui-container-radio">
     <input type="radio" class="oui-input-radio" name="radio" value="radio1">
     <span class="oui-input-text">Radio label</span>
     <span class="oui-input-radio-checkmark"></span>
 </label>
 ```
+</div>
+</div>
 
 ## Range
 
