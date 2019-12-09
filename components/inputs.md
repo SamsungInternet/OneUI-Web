@@ -50,17 +50,25 @@ We got a lots of custom input.
 </div>
 </div>
 
-## Range
+## Slider / Range
 
-**TODO**
-Add preview
+<div class="previewCode">
+    <div class="preview-item">
+        <span style="margin-bottom: 20px;display:block;">Preview:</span>
+        <object title="Phone containing an example of the current component" data="examples/input-slider.html" type="text/html" style="">
+        </object>
+    </div>
+    <div class="code-item">
+        <span style="margin-bottom: 20px;display:block;">Code:</span>
 
-```
+```html
 <label class="oui-label oui-container-slider">
-    <span>Range</span>
+    <span>Slider</span>
     <input type="range" class="oui-input-slider" name="points" min="0" max="10">
 </label>
 ```
+</div>
+</div>
 
 
 ## Switch
