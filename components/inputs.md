@@ -94,15 +94,24 @@ We got a lots of custom input.
 
 ## Buttons
 
+Creating a button is easy, you just need to add the ```oui-button``` class to your input:
+
 ### Default button
 
-**TODO**
-Add preview
+<div class="previewCode">
+    <div class="preview-item">
+        <span style="margin-bottom: 20px;display:block;">Preview:</span>
+        <object title="Phone containing an example of the current component" data="examples/input-button.html" type="text/html" style="">
+        </object>
+    </div>
+    <div class="code-item">
+        <span style="margin-bottom: 20px;display:block;">Code:</span>
 
-Creating a button is easy, you just need to add the ```oui-button``` class:
-```
+```html
 <input type="button" value="button" class="oui-button">
 ```
+</div>
+</div>
 
 ### Active button
 
