@@ -73,16 +73,24 @@ We got a lots of custom input.
 
 ## Switch
 
-**TODO**
-Add preview
+<div class="previewCode">
+    <div class="preview-item">
+        <span style="margin-bottom: 20px;display:block;">Preview:</span>
+        <object title="Phone containing an example of the current component" data="examples/input-switch.html" type="text/html" style="">
+        </object>
+    </div>
+    <div class="code-item">
+        <span style="margin-bottom: 20px;display:block;">Code:</span>
 
-```
+```html
 <label class="oui-label oui-container-toggle">
     <input type="checkbox" class="toggle">
     <span class="toggle-slider"></span>
     <span>Toggle Switch</span>
 </label>
 ```
+</div>
+</div>
 
 ## Buttons
 
