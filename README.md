@@ -11,6 +11,33 @@ The goal is simplify the creation of mobile web apps with the **One UI’s** use
 
 ## Installation / Usage
 
+### Using the CDN
+Here is a premade template that you can use to quickstart a project with One UI Web
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/samsunginternet/OneUI-Web/oui-css/oui.css">
+  </head>
+  <body>
+    <main class="container">
+      <div class="oui-viewing">
+          <!-- Viewing area -->
+      </div>
+      <div class="oui-interaction">
+          <!-- Interaction area -->
+      </div>
+    </main>
+  </body>
+</html>
+```
+[learn more about setting up One UI Web with a CDN](https://oneuiweb.dev/#/getting-started/quickstart)
+
+### Using the source
+
 1. Get One UI Web
 	* ```git clone https://github.com/SamsungInternet/OneUI-Web.git``` 
 	* [Download the latest release](https://github.com/SamsungInternet/OneUI-Web/releases/latest)
