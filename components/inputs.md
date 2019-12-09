@@ -9,16 +9,24 @@ We got a lots of custom input.
 
 ## Checkbox 
 
-**TODO**
-Add preview
+<div class="previewCode">
+    <div class="preview-item">
+        <span style="margin-bottom: 20px;display:block;">Preview:</span>
+        <object title="Phone containing an example of the current component" data="examples/input-checkbox.html" type="text/html" style="">
+        </object>
+    </div>
+    <div class="code-item">
+        <span style="margin-bottom: 20px;display:block;">Code:</span>
 
-```
+```html
 <label class="oui-label oui-container-checkbox">
     <span class="oui-input-text">Checkbox Label</span>
     <input type="checkbox" class="oui-input-checkbox">
     <span class="oui-input-checkbox-checkmark"></span>
 </label>
 ```
+</div>
+</div>
 
 
 ## Radio
