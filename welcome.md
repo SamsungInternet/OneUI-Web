@@ -1,4 +1,4 @@
-<img src="_media/welcome-oui.png" style="margin:auto;display:block">
+<img src="_media/welcome-oui.png" style="margin:auto;display:block" alt="One UI Web logo with a sunshine beam and stars in the background ">
 
 # Welcome !
 

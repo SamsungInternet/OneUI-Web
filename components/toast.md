@@ -26,7 +26,7 @@ Here is the structure:
             <div id="phone-camera">
                 <div id="phone-lens"></div>
             </div>
-            <object id="phone-screen" data="examples/toast.html" type="text/html" style="">
+            <object id="phone-screen" title="Phone containing an example of the current component" data="examples/toast.html" type="text/html" style="">
             </object>
         </div>
     </div>

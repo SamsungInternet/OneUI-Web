@@ -18,7 +18,7 @@ Take a look at the example !
             <div id="phone-camera">
                 <div id="phone-lens"></div>
             </div>
-            <object id="phone-screen" data="examples/image.html" type="text/html" style="">
+            <object id="phone-screen" title="Phone containing an example of the current component" data="examples/image.html" type="text/html" style="">
             </object>
         </div>
     </div>
@@ -27,7 +27,7 @@ Take a look at the example !
 
 ```html
 <div class="oui-bubble">
-    <img src="kitten.png"
+    <img alt="Kitten sleeping" src="kitten.png"
         class="oui-image-cover"
         alt="cute kitten sitting on a couch"/>
     <p class="oui-image-cover-caption">Hey this is an example</p>

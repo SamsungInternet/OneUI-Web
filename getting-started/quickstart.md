@@ -4,7 +4,7 @@
 Here is a template that will help you quickstart your project:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -14,10 +14,10 @@ Here is a template that will help you quickstart your project:
   </head>
   <body>
     <main class="container">
-      <div class="viewing">
+      <div class="oui-viewing">
           <!-- Viewing area -->
       </div>
-      <div class="content">
+      <div class="oui-interaction">
           <!-- Interaction area -->
       </div>
     </main>
@@ -44,7 +44,7 @@ Include it on your page by adding the css stylesheet to your page:
 
 Here is what your page should look like.
 ```
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -54,10 +54,10 @@ Here is what your page should look like.
   </head>
   <body>
     <main class="container">
-      <div class="viewing">
+      <div class="oui-viewing">
           <!-- Viewing area -->
       </div>
-      <div class="content">
+      <div class="oui-interaction">
           <!-- Interaction area -->
       </div>
     </main>
