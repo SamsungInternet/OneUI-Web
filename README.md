@@ -44,12 +44,12 @@ Here is a premade template that you can use to quickstart a project with One UI 
 2. Add the `one-ui` folder to your project files
 3. Include the CSS in your project
 
-Please also check the **Getting started** part in the documentation: http://samsunginter.net/OneUI-Web/#/getting-started/quickstart
+Please also check the **Getting started** part in the documentation: https://oneuiweb.dev/#/getting-started/quickstart
 
 
 ## Documentation
 
-We've built a beautiful documentation just for you: http://samsunginter.net/OneUI-Web/
+We've built a beautiful documentation just for you: https://oneuiweb.dev
 
 This documentation is using [DocsifyJS](https://github.com/docsifyjs/docsify).
 You can also run it locally by following the steps bellow.
