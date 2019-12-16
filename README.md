@@ -55,7 +55,7 @@ This documentation is using [DocsifyJS](https://github.com/docsifyjs/docsify).
 You can also run it locally by following the steps bellow.
 
 * Install docsify ```npm i docsify-cli -g```
-* Run the local server with  ```docsify server``` in the gh-page branch
+* Run the local server with  ```docsify serve``` in the gh-page branch
 * Finnaly can preview the documentation in your browser on `http://localhost:3000`
 
 ## Bugs and feature request 
