@@ -32,7 +32,6 @@ Take a look at the example !
         alt="cute kitten sitting on a couch"/>
     <p class="oui-image-cover-caption">Hey this is an example</p>
 </div>
-<p class="oui-image-cover-caption">Hey this is an example</p>
 ```
 
 </div>
