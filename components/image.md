@@ -37,7 +37,7 @@ Take a look at the example !
 </div>
 </div>
 
-# Accesibility
+# Accessibility
 
 Some of the techniques that we recommend based on W3C to make images accesible are the following:
 
