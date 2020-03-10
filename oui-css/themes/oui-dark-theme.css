@@ -7,12 +7,14 @@
     --m-grey: #979797;
     --l-grey: #CCCCCC;
     --xl-grey: #F2F2F2;
-    --orange: #F56A0D;
-    --blue: #4197FE;
-    --d-blue: #053053;
+    --orange: #FE7B21;
+    --blue: #0481FF;
+    --d-blue: #062E52;
     --m-blue: #0074D4;
-    --red: #EF5150;
-    --green: #5EE066;
+    --red: #F01346;
+    --green: #15B76C;
+    --purple: #6446E6;
+    --yellow: #FF9E01;
 
     /*main theme variables*/
     --text: var(--p-white);
