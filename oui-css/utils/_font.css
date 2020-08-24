@@ -1,3 +1,5 @@
+
+/*fonts used in oneui web*/
 @font-face {
   font-family: 'SamsungSharpSans-Regular';
   src: url('../fonts/SamsungSharpSans-Regular.eot') format('embedded-opentype'),  url('../fonts/SamsungSharpSans-Regular.woff') format('woff'), url('../fonts/SamsungSharpSans-Regular.ttf')  format('truetype'), url('../fonts/SamsungSharpSans-Regular.svg#SamsungSharpSans-Regular') format('svg');
