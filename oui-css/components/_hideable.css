@@ -1,0 +1,46 @@
+:root {
+	--oui-hideable-revealed--amount: 8.4em;
+}
+
+.container {
+	position: relative;
+}
+
+.oui-hideable-container::-webkit-scrollbar {
+	display: none;
+}
+
+.oui-hideable-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: scroll;
+	pointer-events: none;
+    scroll-snap-type: y mandatory;
+    
+    /* Hide scrollbar */
+	-ms-overflow-style: none; 
+	scrollbar-width: none; 
+}
+
+.oui-hideable {
+	top: calc(100% - var(--oui-hideable-revealed--amount));
+	position: absolute;
+	width: 100%;
+	background: var(--hideable-backdrop) !important;
+	backdrop-filter: blur(10px);
+	pointer-events: all;
+	scroll-snap-align: start;
+}
+
+.oui-hideable-padding {
+	height: var(--oui-hideable-revealed--amount);
+	pointer-events: none;
+	visibility: hidden;
+}
+
+.oui-hideable-snap {
+	scroll-snap-align: start;
+}

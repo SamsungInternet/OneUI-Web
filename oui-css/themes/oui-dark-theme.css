@@ -15,6 +15,7 @@
     --green: #15B76C;
     --purple: #6446E6;
     --yellow: #FF9E01;
+    --transparent: #0004;
 
     /*main theme variables*/
     --text: var(--p-white);
@@ -31,6 +32,7 @@
     --textual-background: var(--d-grey);
     --surface-background: var(--d-grey);
     --alt-surface-background: var(--d-grey);
+	--hideable-background: var(--transparent);
 
     /*accents*/
     --error: var(--red);
