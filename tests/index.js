@@ -73,7 +73,7 @@ let hasViolations = false;
                         if (err) throw err;
                         
                         // Check for buttons and ensure they have aria roles
-                        const buttons = Array.from(document.querySelectorAll(`[class*=button]`));
+                        const buttons = Array.from(document.querySelectorAll(`[class*=button]:not(input):not(button)`));
                         const buttonRoleViolation = {
                             nodes: [],
                             description: "Button elements need to have aria role"
