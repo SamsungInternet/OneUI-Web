@@ -61,10 +61,36 @@ let hasViolations = false;
 			await page.addScriptTag({
 				url: "/node_modules/axe-core/axe.min.js",
 			});
-			const results = await page.evaluate(() => {
+            const results = await page.evaluate(() => {
+                
+                function getHTML(el) {
+                    const tempEl = el.cloneNode();
+                    tempEl.textContent = el.textContent;
+                    return tempEl.outerHTML;
+                }
+
 				return new Promise((resolve) => {
 					axe.run(function (err, results) {
-						if (err) throw err;
+                        if (err) throw err;
+                        
+                        // Check for buttons and ensure they have aria roles
+                        const buttons = Array.from(document.querySelectorAll(`[class*=button]`));
+                        const buttonRoleViolation = {
+                            nodes: [],
+                            description: "Button elements need to have aria role"
+                        }
+                        for (const b of buttons) {
+                            if (b.getAttribute('role') !== 'button') {
+                                buttonRoleViolation.nodes.push({
+                                    impact: 'critical',
+                                    html: getHTML(b),
+                                });
+                                if (results.violations.indexOf(buttonRoleViolation) === -1) {
+                                    results.violations.push(buttonRoleViolation);
+                                }
+                            }
+                        }
+
 						resolve(results);
 					});
 				}).catch((e) => ({
