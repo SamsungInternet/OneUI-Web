@@ -79,14 +79,14 @@ let hasViolations = false;
                             description: "Button elements need to have aria role"
                         }
                         for (const b of buttons) {
-                            if (results.violations.indexOf(buttonRoleViolation) === -1) {
-                                results.violations.push(buttonRoleViolation);
-                            }
                             if (b.getAttribute('role') !== 'button') {
                                 buttonRoleViolation.nodes.push({
                                     impact: 'critical',
                                     html: getHTML(b),
                                 });
+                                if (results.violations.indexOf(buttonRoleViolation) === -1) {
+                                    results.violations.push(buttonRoleViolation);
+                                }
                             }
                         }
 
