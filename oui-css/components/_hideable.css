@@ -2,27 +2,28 @@
 	--oui-hideable-revealed--amount: 8.4em;
 }
 
-.container {
-	position: relative;
-}
-
-.oui-hideable-container::-webkit-scrollbar {
-	display: none;
+.oui-hideable-container > .container {
+	position: fixed;
+	height: 100%;
+	overflow-y: auto;
 }
 
 .oui-hideable-container {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	overflow: scroll;
-	pointer-events: none;
-    scroll-snap-type: y mandatory;
-    
-    /* Hide scrollbar */
-	-ms-overflow-style: none; 
-	scrollbar-width: none; 
+	position: relative;
+	display: flex;
+	justify-content: center;
+
+	overflow-y: auto;
+	scroll-snap-type: y mandatory;
+	scroll-snap-stop: always;
+    height: 100vh;
+
+	/* Hide scrollbar */
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.oui-hideable-container::-webkit-scrollbar {
+	display: none;
 }
 
 .oui-hideable {
@@ -31,13 +32,14 @@
 	width: 100%;
 	background: var(--hideable-backdrop) !important;
 	backdrop-filter: blur(10px);
-	pointer-events: all;
+	pointer-events: auto;
 	scroll-snap-align: start;
+	contain: content;
+	z-index: 10;
 }
 
 .oui-hideable-padding {
 	height: var(--oui-hideable-revealed--amount);
-	pointer-events: none;
 	visibility: hidden;
 }
 

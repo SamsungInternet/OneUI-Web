@@ -6,145 +6,276 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<meta name="description" content="Welcome to internet" />
 		<link rel="stylesheet" href="../../oui-css/oui.css" />
-        <title>Welcome to internet</title>
-        <style>
-            .article-brief-grid {
-                --title-height: 1.4em;
-                --body-height: 2.4em;
-                --gap: 0.4em;
-                --total: calc(var(--body-height) + var(--title-height) + var(--gap));
-                display: grid;
-                grid-template-rows: var(--title-height) var(--body-height);
-                grid-template-columns: var(--total) 1fr;
-                gap: 0.4em;
-            }
-            .article-brief-grid > img {
-                grid-row-end: span 2;
-                height: 100%;
-                width: 100%;
-            }
-            .article-brief-grid > p {
-                line-height: calc(var(--body-height) / 2);
-                overflow: hidden;
-            }
-
-            /* To import into library */
-
-        </style>
+		<title>Welcome to internet</title>
+		<style>
+			.article-brief-grid {
+				--title-height: 1.4em;
+				--body-height: 2.4em;
+				--gap: 0.4em;
+				--total: calc(
+					var(--body-height) + var(--title-height) + var(--gap)
+				);
+				display: grid;
+				grid-template-rows: var(--title-height) var(--body-height);
+				grid-template-columns: var(--total) 1fr;
+				gap: 0.4em;
+			}
+			.article-brief-grid > img {
+				grid-row-end: span 2;
+				height: 100%;
+				width: 100%;
+			}
+			.article-brief-grid > p {
+				line-height: calc(var(--body-height) / 2);
+				overflow: hidden;
+			}
+		</style>
 	</head>
 	<body>
-		<main class="container">
-			<div class="oui-viewing">
-				<h1 class="oui-viewing-title">Hideable Menu Example</h1>
-			</div>
-			<div class="oui-interaction">
-				<div class="oui-bubble">
-                    <iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube-nocookie.com/embed/i0p1bmr0EmE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h1>Twice - What is Love?</h1>
+		<div class="oui-hideable-container">
+			<div class="oui-hideable-snap"></div>
+			<section class="oui-hideable oui-bubble">
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?1"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Lorem Ipsum</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?2"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Ipsum Dolor</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?3"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Dolor Sit</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?4"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Sit Amet</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?5"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Amet Consequitum</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?1"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Lorem Ipsum</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?2"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Ipsum Dolor</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?3"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Dolor Sit</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?4"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Sit Amet</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+				<article
+					tabindex="0"
+					class="oui-bubble-item article-brief-grid"
+				>
+					<img
+						src="https://placeimg.com/240/240/any?5"
+						class="oui-imgarticle-img"
+					/>
+					<h3>Amet Consequitum</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore
+						magna aliqua. Ut enim ad minim veniam, quis nostrud
+						exercitation ullamco laboris nisi ut aliquip ex ea
+						commodo consequat.
+					</p>
+				</article>
+			</section>
+			<main class="container">
+				<div class="oui-viewing">
+					<h1 class="oui-viewing-title">Hideable Menu Example</h1>
+				</div>
+				<div class="oui-interaction">
+					<div class="oui-bubble">
+						<iframe
+							style="width: 100%; aspect-ratio: 16 / 9"
+							src="https://www.youtube-nocookie.com/embed/i0p1bmr0EmE"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+						<h1>Twice - What is Love?</h1>
 
-					<p class="oui-overlay-bubble-item">Menu Item 1</p>
-					<ul>
-						<li class="oui-bubble-item">test</li>
-						<li class="oui-bubble-item">test</li>
-						<li class="oui-bubble-item">test</li>
-					</ul>
+						<p class="oui-overlay-bubble-item">Menu Item 1</p>
+						<ul>
+							<li class="oui-bubble-item">test</li>
+							<li class="oui-bubble-item">test</li>
+							<li class="oui-bubble-item">test</li>
+						</ul>
 
-					<label
-						class="oui-label oui-container-checkbox"
-						for="checkbox_oui"
-					>
-						Checkbox Label
-						<input
-							id="checkbox_oui"
-							type="checkbox"
-							class="oui-input-checkbox"
-						/>
-						<span class="oui-input-checkbox-checkmark"></span>
-					</label>
-					<label
-						class="oui-label oui-container-toggle"
-						for="toggle_oui"
-					>
-						Toggle Switch
-						<input id="toggle_oui" type="checkbox" class="toggle" />
-						<span class="toggle-slider"></span>
-					</label>
+						<label
+							class="oui-label oui-container-checkbox"
+							for="checkbox_oui"
+						>
+							Checkbox Label
+							<input
+								id="checkbox_oui"
+								type="checkbox"
+								class="oui-input-checkbox"
+							/>
+							<span class="oui-input-checkbox-checkmark"></span>
+						</label>
+						<label
+							class="oui-label oui-container-toggle"
+							for="toggle_oui"
+						>
+							Toggle Switch
+							<input
+								id="toggle_oui"
+								type="checkbox"
+								class="toggle"
+							/>
+							<span class="toggle-slider"></span>
+						</label>
 
-					<a href="" class="oui-button" role="button">button test</a>
+						<a href="" class="oui-button" role="button"
+							>button test</a
+						>
 
-					<p class="oui-overlay-bubble-item">Menu Item 2</p>
-					<label
-						class="oui-label oui-container-slider"
-						for="slider-oui"
-					>
-						<span>Range</span>
-						<input
-							id="slider-oui"
-							type="range"
-							class="oui-input-slider"
-							name="points"
-							min="0"
-							max="10"
-						/>
-					</label>
-                </div>
-			</div>
-            <div class="oui-hideable-padding"></div>
-		</main>
-        <div class="oui-hideable-container">
-            <div class="oui-hideable-snap"></div>
-            <section class="oui-hideable oui-bubble">
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?1" class="oui-imgarticle-img">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?2"  class="oui-imgarticle-img">
-                    <h3>Ipsum Dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?3"  class="oui-imgarticle-img">
-                    <h3>Dolor Sit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?4"  class="oui-imgarticle-img">
-                    <h3>Sit Amet</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?5"  class="oui-imgarticle-img">
-                    <h3>Amet Consequitum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?1" class="oui-imgarticle-img">
-                    <h3>Lorem Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?2"  class="oui-imgarticle-img">
-                    <h3>Ipsum Dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?3"  class="oui-imgarticle-img">
-                    <h3>Dolor Sit</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?4"  class="oui-imgarticle-img">
-                    <h3>Sit Amet</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-                <article tabindex="0" class="oui-bubble-item article-brief-grid">
-                    <img src="https://placeimg.com/240/240/any?5"  class="oui-imgarticle-img">
-                    <h3>Amet Consequitum</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                </article>
-            </section>
-        </div>
+						<p class="oui-overlay-bubble-item">Menu Item 2</p>
+						<label
+							class="oui-label oui-container-slider"
+							for="slider-oui"
+						>
+							<span>Range</span>
+							<input
+								id="slider-oui"
+								type="range"
+								class="oui-input-slider"
+								name="points"
+								min="0"
+								max="10"
+							/>
+						</label>
+					</div>
+				</div>
+				<div class="oui-hideable-padding"></div>
+			</main>
+		</div>
 	</body>
 </html>
