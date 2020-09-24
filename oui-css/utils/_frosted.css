@@ -1,0 +1,12 @@
+@supports (backdrop-filter: blur(10px)) {
+	.oui-frosted {
+		background-color: var(--frosted-background-color);
+		backdrop-filter: blur(var(--frosted-blur-size));
+	}
+
+	@media (prefers-reduced-transparency: reduce) {
+		.oui-frosted {
+			background-color: var(--background);
+		}
+	}
+}

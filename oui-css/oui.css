@@ -17,6 +17,7 @@
 @import 'components/_imgarticle.css';
 @import 'components/_input.css';
 @import 'components/_tab.css';
+@import 'components/_menu.css';
 @import 'components/_radio.css';
 @import 'components/_search.css';
 @import 'components/_select.css';
@@ -29,10 +30,12 @@
 
 
 /* Required utils */
+@import 'utils/_easings.css';
 @import 'utils/_misc.css';
 @import 'utils/_font.css';
 @import 'utils/_media.css';
 @import 'utils/_spacing.css';
+@import 'utils/_frosted.css';
 
 html {
     background-color: var(--background);

@@ -64,7 +64,7 @@ let hasViolations = false;
             const results = await page.evaluate(() => {
                 function getHTML(el) {
                     const tempEl = el.cloneNode();
-                    tempEl.textContent = el.textContent;
+                    tempEl.textContent = el.textContent.replace(/\s+/g, ' ');
                     return tempEl.outerHTML;
                 }
 
@@ -79,7 +79,7 @@ let hasViolations = false;
                             description: "Button elements need to have aria role"
                         }
                         for (const b of buttons) {
-                            if (b.getAttribute('role') !== 'button') {
+                            if (!b.getAttribute('role')) {
                                 buttonRoleViolation.nodes.push({
                                     impact: 'critical',
                                     html: getHTML(b),
