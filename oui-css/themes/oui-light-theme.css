@@ -3,7 +3,8 @@
     --p-white: #FFFFFF;
     --white-col: 252,252,252;
     --white: rgb(var(--white-col));
-    --black: #252525;
+    --black-col: 37, 37, 37;
+    --black: rgb(var(--black-col));
     --d-grey: #737373;
     --m-grey: #E6E6E6;
     --l-grey: #D9D9D9;
@@ -57,4 +58,7 @@
     --border-surface: var(--m-grey);
     --border-alt-surface: var(--m-grey);
     --border-control: var(--d-grey);
+
+    /*misc*/
+    --shadow-color: rgba(var(--black-col), 0.3);
 }

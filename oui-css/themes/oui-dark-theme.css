@@ -58,4 +58,7 @@
     --border-surface: var(--xl-grey);
     --border-alt-surface: var(--d-grey);
     --border-control: var(--d-grey);
+    
+    /*misc*/
+    --shadow-color: rgba(var(--black-col), 0.3);
 }
