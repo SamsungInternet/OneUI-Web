@@ -5,9 +5,9 @@
     --white: rgb(var(--white-col));
     --black-col: 37, 37, 37;
     --black: rgb(var(--black-col));
-    --d-grey: #737373;
-    --m-grey: #E6E6E6;
-    --l-grey: #D9D9D9;
+    --d-grey: #b6b6b6;
+    --l-grey: #E6E6E6;
+    --m-grey: #c4c4c4;;
     --xl-grey-col: 242,242,242;
     --xl-grey: rgb(var(--xl-grey-col));
     --orange: #C65306;
@@ -30,7 +30,7 @@
 
     /*backgrounds*/
     --background: var(--xl-grey);
-    --control-background: var(--m-grey);
+    --control-background: var(--l-grey);
     --textual-background: var(--white);
     --surface-background: var(--white);
     --alt-surface-background: var(--d-grey);
@@ -55,8 +55,8 @@
     --on-accent-badge: var(--p-white);
 
     /*borders*/
-    --border-surface: var(--m-grey);
-    --border-alt-surface: var(--m-grey);
+    --border-surface: var(--l-grey);
+    --border-alt-surface: var(--l-grey);
     --border-control: var(--d-grey);
 
     /*misc*/
