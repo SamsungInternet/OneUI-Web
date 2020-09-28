@@ -2,11 +2,12 @@
     cursor: pointer;
     list-style: none;
 }
-
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
 .oui-menu-trigger::-webkit-details-marker {
   display: none;
 }
-
 .oui-menu {
     position: relative;
     height: min-content;
@@ -63,7 +64,7 @@
 }
 
 .oui-menu>ul>li>a:hover::before,
-.oui-menu>ul>li>a:focus::before
+.js-focus-visible .oui-menu>ul>li>a.focus-visible::before
 {
     clip-path: circle(100%);
 }
