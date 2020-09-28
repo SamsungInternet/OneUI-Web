@@ -42,24 +42,29 @@
     left: auto;
 }
 .oui-menu>ul>li {
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0;
 }
-.oui-menu>ul>li::before {
+.oui-menu>ul>li>a {
+    position: relative;
+    padding: 10px 20px;
+    display: block;
+}
+.oui-menu>ul>li>a::before {
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     content: '';
-    background-color: var(--m-grey);
+    background-color: var(--dark-m-grey);
     clip-path: circle(0%);
     transition: clip-path 0.5s ease-out;
     z-index: -1;
 }
-.oui-menu>ul>li:focus-within::before,
-.oui-menu>ul>li:hover::before {
+
+.oui-menu>ul>li>a:hover::before,
+.oui-menu>ul>li>a:focus::before
+{
     clip-path: circle(100%);
 }
 

@@ -5,10 +5,11 @@
     --white: rgb(var(--white-col));
     --black-col: 37, 37, 37;
     --black: rgb(var(--black-col));
-    --d-grey: #b6b6b6;
+    --d-grey: #737373;
+    --dark-m-grey: #b6b6b6;
+    --m-grey: #c4c4c4;
     --l-grey: #E6E6E6;
-    --m-grey: #c4c4c4;;
-    --xl-grey-col: 242,242,242;
+    --xl-grey-col: 242,242,242; /*#F2F2F2*/
     --xl-grey: rgb(var(--xl-grey-col));
     --orange: #C65306;
     --blue: #0865C3;
@@ -47,7 +48,7 @@
     --on-primary: var(--p-white);
     --on-secondary: var();
     --on-active: var(--p-white);
-    --on-background: var(--d-grey);
+    --on-background: var(--black);
     --on-alt-background: var(--p-white);
     --on-surface: var(--black);
     --on-error: var(--white);
