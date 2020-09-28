@@ -7,7 +7,6 @@ function onkeydown(e) {
 	if (!element) return;
 
     const currentFocusEl = element.querySelector(":focus");
-    // console.log(currentFocusEl)
 
 	const letterKey = e.code.match(/^Key([A-Z])$/);
     if (letterKey) {
@@ -100,8 +99,14 @@ function ontoggle(e) {
     if (element.open) element.querySelector("li:first-child>a").focus();
 }
 
-for (const el of [...document.querySelectorAll(".oui-menu")]) {
-    el.addEventListener("blur", onblur, true);
-	el.addEventListener("toggle", ontoggle);
-	el.addEventListener("keydown", onkeydown);
+function ouiBindKeys() {
+    for (const el of [...document.querySelectorAll(".oui-menu")]) {
+        el.removeEventListener("blur", onblur);
+        el.removeEventListener("toggle", ontoggle);
+        el.removeEventListener("keydown", onkeydown);
+        el.addEventListener("blur", onblur, true);
+        el.addEventListener("toggle", ontoggle);
+        el.addEventListener("keydown", onkeydown);
+    }
 }
+ouiBindKeys();
