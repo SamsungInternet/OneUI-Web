@@ -71,7 +71,7 @@ let hasViolations = false;
 				return new Promise((resolve) => {
 					axe.run(function (err, results) {
 						if (err) throw err;
-                        
+
 						// Check for buttons and ensure they have aria roles
 						const buttons = Array.from(document.querySelectorAll(`[class*=button]:not(input):not(button):not(summary)`));
 						const buttonRoleViolation = {
