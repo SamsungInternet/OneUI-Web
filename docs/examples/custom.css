@@ -1,0 +1,33 @@
+/* make it look good on very small display */
+
+/* More accessible colours */
+:root {
+	--primary: #0865c3;
+	--orange: #c65306;
+	--d-grey: #737373;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--control-background: var(--xl-grey);
+		--on-background: var(--white);
+		--border-surface: var(--xl-grey);
+	}
+
+	.oui-dialog-action-link {
+		color: var(--white);
+	}
+}
+
+.container {
+	min-width: inherit !important;
+}
+
+.oui-viewing-title {
+	width: 100% !important;
+	word-wrap: initial !important;
+}
+
+.oui-dialog {
+	min-height: 60vh !important;
+}
