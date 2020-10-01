@@ -1,10 +1,14 @@
 # Inputs
 
-We got a lots of custom input.
+Here's all the input related component that One UI Web supports.
 
+## Accesibility
 
-## Text 
+In order to make sure that inputs are accesible, as WCAG recommends, remember to:
 
+- Make your inputs adaptable: In order to create content that can be presented in different ways (for example simpler layout) without losing information or structure, add text to the input element's associated label that describes the purpose or function of the control. 
+- Help users avoid and correct mistakes: Add the attribute `for` in `<label>` and `id` in `<input>`
+- When you are using forms, be aware to use `<fieldset>` and `<legend>` tags to group and associate related form controls.
 
 
 ## Checkbox 
@@ -19,11 +23,11 @@ We got a lots of custom input.
         <span style="margin-bottom: 20px;display:block;">Code:</span>
 
 ```html
-<label class="oui-label oui-container-checkbox">
+<label class="oui-label oui-container-checkbox" for="checkbox-oui">
     <span class="oui-input-text">Checkbox Label</span>
-    <input type="checkbox" class="oui-input-checkbox">
+    <input id="checkbox_oui" type="checkbox" class="oui-input-checkbox">
     <span class="oui-input-checkbox-checkmark"></span>
-</label>
+</label>  
 ```
 </div>
 </div>
@@ -41,8 +45,8 @@ We got a lots of custom input.
         <span style="margin-bottom: 20px;display:block;">Code:</span>
 
 ```html
-<label class="oui-label oui-container-radio">
-    <input type="radio" class="oui-input-radio" name="radio" value="radio1">
+<label class="oui-label oui-container-radio" for="radio-oui">
+    <input id="radio-oui" type="radio" class="oui-input-radio" name="radio" value="radio1">
     <span class="oui-input-text">Radio label</span>
     <span class="oui-input-radio-checkmark"></span>
 </label>
@@ -62,9 +66,9 @@ We got a lots of custom input.
         <span style="margin-bottom: 20px;display:block;">Code:</span>
 
 ```html
-<label class="oui-label oui-container-slider">
+<label class="oui-label oui-container-slider" for="slider-oui">
     <span>Slider</span>
-    <input type="range" class="oui-input-slider" name="points" min="0" max="10">
+    <input id="slider-oui" type="range" class="oui-input-slider" name="points" min="0" max="10">
 </label>
 ```
 </div>
@@ -83,8 +87,8 @@ We got a lots of custom input.
         <span style="margin-bottom: 20px;display:block;">Code:</span>
 
 ```html
-<label class="oui-label oui-container-toggle">
-    <input type="checkbox" class="toggle">
+<label class="oui-label oui-container-toggle" for="switch-oui">
+    <input id="switch-oui" type="checkbox" class="toggle">
     <span class="toggle-slider"></span>
     <span>Toggle Switch</span>
 </label>
@@ -128,5 +132,6 @@ Same as for the default button but we have added the ```oui-button--active``` cl
 ```html
 <input type="button" value="Active button" class="oui-button oui-button--active">
 ```
+
 </div>
 </div>

@@ -32,11 +32,12 @@ You can also use `oui-tab-link--active` to add contrast to the active tab.
 <nav class="oui-tab">
     <a href="#" class="oui-tab-link">1</a>
     <a href="#" class="oui-tab-link">2</a>
-    <a href="#" class="oui-tab-link oui-tab-link--active">3</a>
+    <a href="#"
+       class="oui-tab-link oui-tab-link--active"
+       aria-current="page">3</a>
 </nav>   
 ```
 </div>
-
 </div>
 
 
