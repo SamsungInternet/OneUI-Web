@@ -19,7 +19,7 @@ See some examples down bellow.
 
 ## List in a Bubble:
 
-<div  class="previewCode">
+<div class="previewCode">
     <div class="preview-item">
         <span style="margin-bottom: 20px;display:block;">Preview:</span>
         <div id="phone-container">
