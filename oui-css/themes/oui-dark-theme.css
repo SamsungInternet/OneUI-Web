@@ -2,7 +2,8 @@
     /*color palette*/
     --p-white: #FFFFFF;
     --white: #FAFAFA;
-    --black: #080808;
+    --black-col: 8,8,8;
+    --black: rgb(var(--black-col));
     --d-grey: #252525;
     --m-grey: #979797;
     --l-grey: #CCCCCC;
@@ -31,6 +32,11 @@
     --textual-background: var(--d-grey);
     --surface-background: var(--d-grey);
     --alt-surface-background: var(--d-grey);
+    /* 
+    These inherit from the light theme
+    --frosted-opacity: 0.8;
+    --frosted-blur-size: 10px; */
+    --frosted-background-color: rgba(var(--black-col), var(--frosted-opacity));
 
     /*accents*/
     --error: var(--red);
@@ -52,4 +58,7 @@
     --border-surface: var(--xl-grey);
     --border-alt-surface: var(--d-grey);
     --border-control: var(--d-grey);
+    
+    /*misc*/
+    --shadow-color: rgba(var(--black-col), 0.3);
 }

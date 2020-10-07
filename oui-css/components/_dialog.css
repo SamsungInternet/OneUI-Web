@@ -58,4 +58,5 @@
     background: black;
     opacity: 0.8;
     z-index: 1000;
+    backdrop-filter: blur(var(--frosted-blur-size));
 }
